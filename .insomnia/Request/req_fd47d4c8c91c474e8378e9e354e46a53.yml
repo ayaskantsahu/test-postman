@@ -1,0 +1,30 @@
+_id: req_fd47d4c8c91c474e8378e9e354e46a53
+type: Request
+parentId: fld_f8606d7fc3074bb9b8ce05117eb8b70a
+modified: 1667951230887
+created: 1667951230887
+url: "{{protocol}}://{{host}}:{{port}}/{{baseUrlV2}}/companies/|{{company}}/loa\
+  /cases/{{loaCaseId}}/notes"
+name: Case  Note (POST)
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: "{\r\n  \"text\": \"Some Note\"\r\n}"
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+  - name: Authentication
+    value: Bearer {{token}}
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1667951230887
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

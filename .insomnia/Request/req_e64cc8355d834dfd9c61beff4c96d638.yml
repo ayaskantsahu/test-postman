@@ -1,0 +1,28 @@
+_id: req_e64cc8355d834dfd9c61beff4c96d638
+type: Request
+parentId: fld_f5a1ba70364f4f32bd5735a376564644
+modified: 1667951231408
+created: 1667951231408
+url: "{{protocol}}://{{host}}:{{port}}/{{baseUrlV2}}/companies/|{{company}}/con\
+  fig/cost-centers/{{costCenterId}}"
+name: Cost Center (PUT)
+description: ""
+method: PUT
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/xml
+  - name: Authentication
+    value: Bearer {{token}}
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1667951231408
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

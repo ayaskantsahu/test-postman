@@ -1,0 +1,26 @@
+_id: req_cb7b7608a9d843e190c0d967dcb9df6f
+type: Request
+parentId: fld_9ce02063f17d4b17bc4f55fbdb824d01
+modified: 1667951230741
+created: 1667951230741
+url: "{{protocol}}://{{host}}:{{port}}/{{baseUrlV2}}/companies/{{companyId}}/pa\
+  yrolls/{{payrollId}}/pay-statements/{{payStatementId}}"
+name: Paystatement (DELETE)
+description: Aggregated employee profile
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+  - name: Authentication
+    value: bearer {{token}}
+authentication: {}
+metaSortKey: -1667951230741
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

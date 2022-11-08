@@ -1,0 +1,50 @@
+_id: req_2317faa170ee4d1fb068f6e4539bd38d
+type: Request
+parentId: fld_934063b0e824444e9ff795259dc69c91
+modified: 1667951230963
+created: 1667951230963
+url: "{{protocol}}://{{host}}:{{port}}/{{baseUrlV2}}/companies/|{{company}}/dir\
+  ect-deposits/45442"
+name: New Request
+description: ""
+method: PUT
+body:
+  mimeType: ""
+  text: |-
+    {
+        "name": "Bad Account",
+        "type": "DIRECT_DEPOSIT",
+        "active_from": "2022-01-26",
+        "active_to": "2022-01-26",
+        "employee": {
+            "account_id": 3233745
+        },
+        "sequence": 1,
+        "amount": 32760,
+        "calc_method": {
+            "type": "FLAT_AMOUNT"
+        },
+        "account_type": "CHECKING",
+        "account_number": "123",
+        "routing_number": "021000021",
+        "routing_type": "ABA",
+        "arrearage_function": "UNKNOWN",
+        "payroll_frequency": {
+            "type": "EVERY_PAY"
+        }
+    }
+parameters: []
+headers:
+  - name: Authentication
+    value: Bearer {{token}}
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1667951230963
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,26 @@
+_id: req_7a4405b956884a2c816fed27c965b43d
+type: Request
+parentId: fld_7e5975c51d194f08b5e49e20f24f48fc
+modified: 1667951231011
+created: 1667951231011
+url: "{{protocol}}://{{host}}:{{port}}/{{baseUrlV2}}/companies/|{{company}}/emp\
+  loyees/changed?since=2016-01-01"
+name: Employees Delta (GET)
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+  - name: Authentication
+    value: Bearer {{token}}
+authentication: {}
+metaSortKey: -1667951231011
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

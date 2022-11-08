@@ -1,0 +1,26 @@
+_id: req_650a324673c340aaa5e94e31c3d365de
+type: Request
+parentId: fld_9ce02063f17d4b17bc4f55fbdb824d01
+modified: 1667951230747
+created: 1667951230747
+url: "{{protocol}}://{{host}}:{{port}}/{{baseUrlV2}}/companies/|{{company}}/pay\
+  rolls"
+name: Payroll (GET)
+description: Aggregated employee profile
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+  - name: Authentication
+    value: bearer {{token}}
+authentication: {}
+metaSortKey: -1667951230747
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

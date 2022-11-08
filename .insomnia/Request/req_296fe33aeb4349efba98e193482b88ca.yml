@@ -1,0 +1,26 @@
+_id: req_296fe33aeb4349efba98e193482b88ca
+type: Request
+parentId: fld_f8606d7fc3074bb9b8ce05117eb8b70a
+modified: 1667951230930
+created: 1667951230930
+url: "{{protocol}}://{{host}}:{{port}}/{{baseUrlV2}}/companies/|{{company}}/emp\
+  loyees/{{accountId}}/loa/cases"
+name: Employee Cases List (GET)
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+  - name: Authentication
+    value: Bearer {{token}}
+authentication: {}
+metaSortKey: -1667951230930
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

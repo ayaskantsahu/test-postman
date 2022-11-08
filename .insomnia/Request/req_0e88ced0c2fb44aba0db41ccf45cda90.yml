@@ -1,0 +1,62 @@
+_id: req_0e88ced0c2fb44aba0db41ccf45cda90
+type: Request
+parentId: fld_f8606d7fc3074bb9b8ce05117eb8b70a
+modified: 1667951230917
+created: 1667951230917
+url: "{{protocol}}://{{host}}:{{port}}/{{baseUrlV2}}/companies/|{{company}}/loa\
+  /cases/{{loaCaseId}}"
+name: Case  (PUT)
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "employee": {
+        "account_id": 2716548
+      },
+      "reason": {
+        "id": 3653888,
+        "name": "Blood Disorder"
+      },
+      "start_date": "2015-11-09",
+      "est_end_date": "2015-11-12",
+      "leave_time": {
+        "type": "CONTINUOUS",
+        "total_time": 25200000,
+        "total_time_type": "CUSTOM",
+        "schedule_type": "MONDAY_FRIDAY"
+      },
+      "end_date": "2015-11-12",
+      "ignore_look_back_rules": false,
+      "categories": [
+        {
+          "id": 3637504,
+          "name": "Sickness",
+          "external_id": "Sickness"
+        }
+      ],
+      "status": "CLOSED",
+      "sub_status": "EMPTY",
+      "resolution": {
+        "id": 2113792,
+        "name": "Resolved"
+      }
+    }
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+  - name: Authentication
+    value: Bearer {{token}}
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1667951230917
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

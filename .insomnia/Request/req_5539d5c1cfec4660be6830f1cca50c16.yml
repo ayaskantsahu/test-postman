@@ -1,0 +1,25 @@
+_id: req_5539d5c1cfec4660be6830f1cca50c16
+type: Request
+parentId: fld_c693b77a4adc4044af8fc434ad42522f
+modified: 1667951230759
+created: 1667951230759
+url: "{{payPrepExportLocation}}"
+name: Pay-Period Process Export Status (GET)
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+  - name: Authentication
+    value: Bearer {{token}}
+authentication: {}
+metaSortKey: -1667951230759
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

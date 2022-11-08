@@ -1,0 +1,26 @@
+_id: req_e784fec3b6fd4bffa0b109c8a028d981
+type: Request
+parentId: fld_9ce02063f17d4b17bc4f55fbdb824d01
+modified: 1667951230752
+created: 1667951230752
+url: "{{protocol}}://{{host}}:{{port}}/{{baseUrlV2}}/companies/{{payCompanyId}}\
+  /lookup/tax-codes"
+name: Tax Code Lookup (GET)
+description: Aggregated employee profile
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+  - name: Authentication
+    value: bearer {{token}}
+authentication: {}
+metaSortKey: -1667951230752
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

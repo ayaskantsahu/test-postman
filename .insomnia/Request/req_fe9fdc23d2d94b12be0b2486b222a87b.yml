@@ -1,0 +1,52 @@
+_id: req_fe9fdc23d2d94b12be0b2486b222a87b
+type: Request
+parentId: fld_9bbd855535a64cc18bc5de9cb6d30a97
+modified: 1667951230778
+created: 1667951230778
+url: "{{protocol}}://{{host}}:{{port}}/{{baseUrlV2}}/companies/|{{company}}/ove\
+  rtime/requests?date_from=2015-08-01&date_to=2015-08-30"
+name: Overtime Request (POST)
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: "{\r
+
+    \  \"employee\": {\r
+
+    \    \"account_id\": \"{{accountId}}\"\r
+
+    \  },\r
+
+    \  \"reason\": {\r
+
+    \    \"id\": {{overtimeReasonId}}\r
+
+    \  },\r
+
+    \  \"type\": \"SPECIFIC_HOURS\",\r
+
+    \  \"time_from\": \"2016-10-01T18:00:00+02:00\",\r
+
+    \  \"time_to\": \"2016-10-01T20:00:00+02:00\",\r
+
+    \  \"comment\": \"Some Comment\"\r
+
+    }"
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+  - name: Authentication
+    value: Bearer {{token}}
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1667951230778
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,26 @@
+_id: req_b205740f49cc47e09149a6eb0c939922
+type: Request
+parentId: fld_9247d26d8d1149eaa2a778a34a26a104
+modified: 1667951231221
+created: 1667951231221
+url: "{{protocol}}://{{host}}:{{port}}/{{baseUrlV2}}/companies/|{{company}}/con\
+  tacts/{{contactId}}"
+name: Contact (GET)
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+  - name: Authentication
+    value: Bearer {{token}}
+authentication: {}
+metaSortKey: -1667951231221
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

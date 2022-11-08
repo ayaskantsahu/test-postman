@@ -1,0 +1,29 @@
+_id: req_e34cdc043db047a2a7f03f4a5d651c30
+type: Request
+parentId: fld_e0083694d3c4457ab9dfe23ca5df3b54
+modified: 1667951231155
+created: 1667951231155
+url: "{{protocol}}://{{host}}:{{port}}/{{baseUrl}}/employee/contracts"
+name: delete-> /employee/contracts
+description: ""
+method: DELETE
+body:
+  params:
+    - type: file
+      name: file
+      disabled: false
+      fileName: null
+  mimeType: multipart/form-data
+parameters: []
+headers:
+  - name: Authentication
+    value: bearer {{token}}
+authentication: {}
+metaSortKey: -1667951231155
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

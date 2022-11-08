@@ -1,0 +1,26 @@
+_id: req_69eee6455cc84db1b5ca2e8f283dff42
+type: Request
+parentId: fld_2514d288152f48c7b4430b6ccc79b1c7
+modified: 1667951231379
+created: 1667951231379
+url: "{{protocol}}://{{host}}:{{port}}/{{baseUrlV2}}/companies/|{{company}}/ids\
+  ?type=HR_APPLICANT_RESUME&linked_id=8640449002"
+name: Document Metadata List  (GET)
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+  - name: Authentication
+    value: Bearer {{token}}
+authentication: {}
+metaSortKey: -1667951231379
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

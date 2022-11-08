@@ -1,0 +1,28 @@
+_id: req_c6cbb577650e470288de3d7dcbb91103
+type: Request
+parentId: fld_6410c5a45b9f495e96116c26cab4c22b
+modified: 1667951230720
+created: 1667951230720
+url: "{{protocol}}://{{host}}:{{port}}/{{baseUrl}}/employee/time-entries?compan\
+  y=UK.TLM.HR&ids=7328309775,7328309776,7328309777,7328309778,7328309779,732830\
+  9780,7328309781,7328309782,7328309783,7328309784,7328309785,7328309786,732830\
+  9787,7328309788,7328309789,7328309790,7328309791,7329030838,7329030839"
+name: GET TIME ENTRIES
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - name: Authentication
+    value: bearer {{token}}
+  - name: Accept
+    value: application/xml
+authentication: {}
+metaSortKey: -1667951230720
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

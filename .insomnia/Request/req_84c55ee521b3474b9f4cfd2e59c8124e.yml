@@ -1,0 +1,55 @@
+_id: req_84c55ee521b3474b9f4cfd2e59c8124e
+type: Request
+parentId: fld_2514d288152f48c7b4430b6ccc79b1c7
+modified: 1667951231389
+created: 1667951231389
+url: "{{protocol}}://{{host}}:{{port}}/{{baseUrlV2}}/companies/|{{company}}/ids"
+name: Document Metadata (POST)
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: "{\r
+
+    \  \"type\": \"HR_APPLICANT_RESUME\",\r
+
+    \  \"file_name\": \"test doc.pdf\",\r
+
+    \  \"display_name\": \"Test Document\",\r
+
+    \  \"linked_id\":\"8640449002\",\r
+
+    \  \"description\": \"desc for eclipse\",\r
+
+    \  \"attributes\": {\r
+
+    \    \"ex_info_3\": \"#3\",\r
+
+    \    \"category\": \"any files1\",\r
+
+    \    \"ex_info_1\": \"#1\",\r
+
+    \    \"ex_info_2\": \"#2\",\r
+
+    \    \"directory\": \"/\"\r
+
+    \  }\r
+
+    }"
+parameters: []
+headers:
+  - name: Accept
+    value: application/xml
+  - name: Authentication
+    value: Bearer {{token}}
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1667951231389
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,25 @@
+_id: req_cfac2feea5444b09a9e1f10c23428def
+type: Request
+parentId: fld_71c6e2fc324b4f03beaee322e974b4c6
+modified: 1667951231759
+created: 1667951231759
+url: "{{protocol}}://{{host}}:{{port}}/{{baseUrl}}/refresh-token"
+name: /refresh-token
+description: login to get token
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+  - name: Authentication
+    value: bearer {{token}}
+authentication: {}
+metaSortKey: -1667951231759
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,26 @@
+_id: req_ca639048638545e797de3be4c5a0bad3
+type: Request
+parentId: fld_c693b77a4adc4044af8fc434ad42522f
+modified: 1667951230766
+created: 1667951230766
+url: "{{protocol}}://{{host}}:{{port}}/{{baseUrlV2}}/companies/|{{company}}/pay\
+  -periods/{{payPeriodId}}/snapshot/{{payPrepSnapshotId}}"
+name: Pay-Period Snapshot (DELETE)
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+  - name: Authentication
+    value: Bearer {{token}}
+authentication: {}
+metaSortKey: -1667951230766
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

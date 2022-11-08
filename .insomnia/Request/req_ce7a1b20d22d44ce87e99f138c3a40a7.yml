@@ -1,0 +1,26 @@
+_id: req_ce7a1b20d22d44ce87e99f138c3a40a7
+type: Request
+parentId: fld_1cba2dcf1a894a69ae762a6c124dbf8b
+modified: 1667951231618
+created: 1667951231618
+url: "{{protocol}}://{{host}}:{{port}}/{{baseUrlV2}}/companies/|{{company}}/emp\
+  loyees/4707083/announcements/{{announcementId}}/popup"
+name: Employee Announcements Ack (DELETE)
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+  - name: Authentication
+    value: Bearer {{token}}
+authentication: {}
+metaSortKey: -1667951231618
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

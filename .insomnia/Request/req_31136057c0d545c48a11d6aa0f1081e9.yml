@@ -1,0 +1,26 @@
+_id: req_31136057c0d545c48a11d6aa0f1081e9
+type: Request
+parentId: fld_d936ecbc941445bdb732fe063e1c8d4e
+modified: 1667951231599
+created: 1667951231599
+url: "{{protocol}}://{{host}}:{{port}}/{{baseUrlV2}}/companies/|{{company}}/app\
+  licants"
+name: Get Applicants
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+  - name: Authentication
+    value: Bearer {{token}}
+authentication: {}
+metaSortKey: -1667951231599
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

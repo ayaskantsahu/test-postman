@@ -1,0 +1,26 @@
+_id: req_c3cf2afb9f7d4dbb9569a63c01e396f5
+type: Request
+parentId: fld_9247d26d8d1149eaa2a778a34a26a104
+modified: 1667951231211
+created: 1667951231211
+url: "{{protocol}}://{{host}}:{{port}}/{{baseUrlV2}}/companies/|{{company}}/emp\
+  loyees/{{accountId}}/contacts/"
+name: Contacts List (GET)
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+  - name: Authentication
+    value: Bearer {{token}}
+authentication: {}
+metaSortKey: -1667951231211
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

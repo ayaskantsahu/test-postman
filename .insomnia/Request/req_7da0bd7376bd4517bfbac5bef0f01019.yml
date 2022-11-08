@@ -1,0 +1,28 @@
+_id: req_7da0bd7376bd4517bfbac5bef0f01019
+type: Request
+parentId: fld_e50b240310e249d8bd7fae1edd43e887
+modified: 1667951230725
+created: 1667951230725
+url: "{{protocol}}://{{host}}:{{port}}/{{baseUrlV2}}/companies/|{{company}}/acc\
+  ounts/{{accountId}}/lock"
+name: Lock (PUT)
+description: ""
+method: PUT
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+  - name: Authentication
+    value: Bearer {{token}}
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1667951230725
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

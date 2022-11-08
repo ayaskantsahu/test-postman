@@ -1,0 +1,26 @@
+_id: req_be3d1630fce246ee809c195003fd44f9
+type: Request
+parentId: fld_9ce02063f17d4b17bc4f55fbdb824d01
+modified: 1667951230740
+created: 1667951230740
+url: "{{protocol}}://{{host}}:{{port}}/ta/rest/ui/employees/{{employeeV2Id}}/pa\
+  y/history"
+name: Payroll (GET) copy
+description: Aggregated employee profile
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+  - name: Authentication
+    value: test chaddemo,{{user}}
+authentication: {}
+metaSortKey: -1667951230740
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

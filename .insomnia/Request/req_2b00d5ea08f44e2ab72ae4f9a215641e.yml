@@ -1,0 +1,148 @@
+_id: req_2b00d5ea08f44e2ab72ae4f9a215641e
+type: Request
+parentId: fld_ad798017a5f44411a09c0ffe9af4e819
+modified: 1667951231722
+created: 1667951231722
+url: "{{protocol}}://{{host}}:{{port}}/{{baseUrlV2}}/companies/|{{company}}/con\
+  fig/security/account-groups"
+name: Account Group (POST)
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: "{\r
+
+    \  \"name\": \"REST API Group\",\r
+
+    \  \"description\": \"Group created by REST API\",\r
+
+    \r
+
+    \  \"members\": [\r
+
+    \    {\r
+
+    \      \"account_id\": {{accountId}}\r
+
+    \    }\r
+
+    \  ],\r
+
+    \r
+
+    \  \"managers\": [\r
+
+    \    {\r
+
+    \      \"employee\": {\r
+
+    \        \"account_id\": 2370882\r
+
+    \      },\r
+
+    \r
+
+    \      \"active_from\": \"2017-01-01\",\r
+
+    \      \"active_to\": \"2017-12-31\",\r
+
+    \r
+
+    \      \"permissions\": {\r
+
+    \        \"employee_information\": {\r
+
+    \          \"view\": true,\r
+
+    \          \"edit\": true\r
+
+    \        },\r
+
+    \r
+
+    \        \"employee_time\": {\r
+
+    \          \"view\": true,\r
+
+    \          \"edit\": true,\r
+
+    \          \"approve\": true,\r
+
+    \          \"approve_level\": 4,\r
+
+    \          \"time_entry_type\": {\r
+
+    \            \"time\": true,\r
+
+    \            \"time_off\": false\r
+
+    \          },\r
+
+    \r
+
+    \          \"time_entry_field\": {\r
+
+    \            \"time\": true,\r
+
+    \            \"time_off\": true,\r
+
+    \            \"pay_category\": false,\r
+
+    \            \"cost_centers\": [\r
+
+    \              {\r
+
+    \                \"index\": 0,\r
+
+    \                \"edit\": true\r
+
+    \              },\r
+
+    \              {\r
+
+    \                \"index\": 1,\r
+
+    \                \"edit\": true\r
+
+    \              }\r
+
+    \            ]\r
+
+    \          },\r
+
+    \          \"approve_overtime_requests\": false\r
+
+    \        },\r
+
+    \        \"employee_pay_statement\": {\r
+
+    \          \"view\": true,\r
+
+    \          \"edit\": false\r
+
+    \        }\r
+
+    \      }\r
+
+    \    }\r
+
+    \  ]\r
+
+    }"
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+  - name: Authentication
+    value: Bearer {{token}}
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1667951231722
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

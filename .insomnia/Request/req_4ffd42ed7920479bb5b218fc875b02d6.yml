@@ -1,0 +1,25 @@
+_id: req_4ffd42ed7920479bb5b218fc875b02d6
+type: Request
+parentId: fld_3eb6ef5ba086410a9adbb50c5f0c8a70
+modified: 1667951230959
+created: 1667951230959
+url: "{{protocol}}://{{host}}:{{port}}/{{baseUrl}}/export/{{dataExportId}}"
+name: Start Export (GET)
+description: list of avalible data exports
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+  - name: Authentication
+    value: bearer {{token}}
+authentication: {}
+metaSortKey: -1667951230959
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

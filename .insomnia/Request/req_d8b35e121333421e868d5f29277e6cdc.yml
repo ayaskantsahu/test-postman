@@ -1,0 +1,26 @@
+_id: req_d8b35e121333421e868d5f29277e6cdc
+type: Request
+parentId: fld_9bbd855535a64cc18bc5de9cb6d30a97
+modified: 1667951230780
+created: 1667951230780
+url: "{{protocol}}://{{host}}:{{port}}/{{baseUrlV2}}/companies/|{{company}}/ove\
+  rtime/requests/{{overtimeRequestId}}"
+name: Overtime Request  (DELETE)
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+  - name: Authentication
+    value: Bearer {{token}}
+authentication: {}
+metaSortKey: -1667951230780
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

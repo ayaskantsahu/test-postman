@@ -1,0 +1,96 @@
+_id: req_9dece9b733df4faf9ce5abdf79af5e08
+type: Request
+parentId: fld_a19a04d6ae99457bb9db5849c76cd2d3
+modified: 1667951231307
+created: 1667951231307
+url: "{{protocol}}://{{host}}:{{port}}/{{baseUrlV2}}/companies/|{{company}}/com\
+  pensation/history"
+name: Base Compensation (POST)
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: "{\r
+
+    \    \"compensations\": [\r
+
+    \        {\r
+
+    \            \"company\" : {\r
+
+    \                \"short_name\" : \"intl.demo\"\r
+
+    \            },        \r
+
+    \            \"employee\": {\r
+
+    \                \"employee_id\": \"12335_546\"\r
+
+    \            },            \r
+
+    \            \"effective_from\": \"2016-7-1\",\r
+
+    \            \"amount\": 5000.0,\r
+
+    \            \"amount_period\": \"Month\",\r
+
+    \            \"hours\": \"40:00\",\r
+
+    \            \"hours_period\": \"Month\",\r
+
+    \            \"num_pp_in_year\": 52,     \r
+
+    \            \"remove_all_future\": true\r
+
+    \        },\r
+
+    \                {\r
+
+    \            \"company\" : {\r
+
+    \                \"short_name\" : \"intl.demo\"\r
+
+    \            },        \r
+
+    \            \"employee\": {\r
+
+    \                \"employee_id\": \"12335_546\"\r
+
+    \            },            \r
+
+    \            \"effective_from\": \"2017-7-1\",\r
+
+    \            \"amount\": 5000.0,\r
+
+    \            \"amount_period\": \"Month\",\r
+
+    \            \"hours\": \"40:00\",\r
+
+    \            \"hours_period\": \"Month\",\r
+
+    \            \"num_pp_in_year\": 52,     \r
+
+    \            \"remove_all_future\": false\r
+
+    \        }\r
+
+    \    ]\r
+
+    }"
+parameters: []
+headers:
+  - name: Authentication
+    value: bearer {{token}}
+  - name: X-FORWARDED-PROTO
+    value: https
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1667951231307
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,44 @@
+_id: req_fe223d81ce224077b036b32a1392af93
+type: Request
+parentId: fld_c693b77a4adc4044af8fc434ad42522f
+modified: 1667951230762
+created: 1667951230762
+url: "{{protocol}}://{{host}}:{{port}}/{{baseUrlV2}}/companies/|{{company}}/pay\
+  -periods/{{payPeriodId}}/functions/export"
+name: Pay-Period Process Export (POST)
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: "{\r
+
+    \  \"payprep_from_id\":56407922,\r
+
+    \  \"payprep_to_id\":56407922,\r
+
+    \  \"export_format_id\" : 144065,\r
+
+    \  \"export_records_type\":\"CURRENT_RECORDS_ALL_EMPS\",\r
+
+    \  \"payroll_employees_only\":\"false\",\r
+
+    \  \"user_prompts\" : []\r
+
+    }"
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+  - name: Authentication
+    value: Bearer {{token}}
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1667951230762
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

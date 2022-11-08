@@ -1,0 +1,72 @@
+_id: req_87b1d47e41fd43059422dabce4f09911
+type: Request
+parentId: fld_9247d26d8d1149eaa2a778a34a26a104
+modified: 1667951231204
+created: 1667951231204
+url: "{{protocol}}://{{host}}:{{port}}/{{baseUrlV2}}/companies/|{{company}}/con\
+  tacts/{{contactId}}"
+name: Contact (PUT)
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "employee": {
+        "account_id": 2716546
+      },
+      "primary": true,
+      "emergency": true,
+      "dependent": false,
+      "beneficiary": false,
+      "salutation": "Hola",
+      "first_name": "John",
+      "middle_name": "Bob",
+      "last_name": "Smith",
+      "name_suffix": "PhD",
+      "relationship": "Spouse",
+      "work_phone": {
+        "number": "+1(42)461-23-64",
+        "primary": true
+      },
+      "home_phone": {
+        "number": "+375(29)461-23-64",
+        "primary": false
+      },
+      "cell_phone": {
+        "number": "+91(33)461-23-64",
+        "primary": false
+      },
+      "email": "email@example.com",
+      "ssn": "123-45-6789",
+      "birthdate": "1982-09-21",
+      "gender": "MALE",
+      "height": "180cm",
+      "weight": "90kg",
+      "ethnicity": "HISPANIC_OR_LATINO",
+      "smoker": false,
+      "full_time_student": false,
+      "disability": true,
+      "always_eligible_for_benefit_plans": true,
+      "use_employee_address": true,
+      "address": {
+        "country": "GBR"
+      }
+    }
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+  - name: Authentication
+    value: Bearer {{token}}
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1667951231204
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

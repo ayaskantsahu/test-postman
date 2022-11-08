@@ -1,0 +1,63 @@
+_id: req_48d5125d0b1f41f78139061eff68b761
+type: Request
+parentId: fld_6410c5a45b9f495e96116c26cab4c22b
+modified: 1667951230716
+created: 1667951230716
+url: "{{protocol}}://{{host}}:{{port}}/{{baseUrl}}/employee/time-entries"
+name: insert-> /employee/time-entries.json (Timeoff)
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: "{\r
+
+    \  \"entries\": [\r
+
+    \    {\r
+
+    \      \"company\": {\r
+
+    \          \"short_name\": \"intl.demo\"\r
+
+    \      },\r
+
+    \      \"employee\": {\r
+
+    \        \"account_id\": \"2716546\"\r
+
+    \      },\r
+
+    \      \"date\": \"2016-05-05\",\r
+
+    \      \"total\": \"0:01\",\r
+
+    \      \"extra_field_5\": \"Full Day\",\r
+
+    \      \"time_off\": {\r
+
+    \        \"external_id\": \"VAC\"\r
+
+    \      }\r
+
+    \    }\r
+
+    \  ]\r
+
+    }"
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: Authentication
+    value: bearer {{token}}
+  - name: Accept
+    value: application/json
+authentication: {}
+metaSortKey: -1667951230716
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

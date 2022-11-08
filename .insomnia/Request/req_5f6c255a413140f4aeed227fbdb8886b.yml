@@ -1,0 +1,26 @@
+_id: req_5f6c255a413140f4aeed227fbdb8886b
+type: Request
+parentId: fld_c693b77a4adc4044af8fc434ad42522f
+modified: 1667951230767
+created: 1667951230767
+url: "{{protocol}}://{{host}}:{{port}}/{{baseUrlV2}}/companies/|{{company}}/pay\
+  -periods/{{payPeriodId}}/functions/snapshot"
+name: Pay-Period Snapshot (POST)
+description: ""
+method: POST
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+  - name: Authentication
+    value: Bearer {{token}}
+authentication: {}
+metaSortKey: -1667951230767
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

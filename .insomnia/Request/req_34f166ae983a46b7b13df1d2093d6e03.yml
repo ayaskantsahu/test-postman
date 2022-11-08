@@ -1,0 +1,24 @@
+_id: req_34f166ae983a46b7b13df1d2093d6e03
+type: Request
+parentId: fld_934063b0e824444e9ff795259dc69c91
+modified: 1667951230972
+created: 1667951230972
+url: "{{protocol}}://{{host}}:{{port}}/{{baseUrlV2}}/companies/|{{company}}/emp\
+  loyees/3233745/direct-deposits"
+name: Employee Direct Deposit
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Authentication
+    value: Bearer {{token}}
+authentication: {}
+metaSortKey: -1667951230972
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,30 @@
+_id: req_87d251b3c45e4c719510a48ce5c09c79
+type: Request
+parentId: fld_f8606d7fc3074bb9b8ce05117eb8b70a
+modified: 1667951230875
+created: 1667951230875
+url: "{{protocol}}://{{host}}:{{port}}/{{baseUrlV2}}/companies/|{{company}}/loa\
+  /cases/{{loaCaseId}}/notes/{{loaCaseNoteId}}"
+name: Case  Note (DELETE)
+description: ""
+method: DELETE
+body:
+  mimeType: application/json
+  text: "{\r\n  \"text\": \"Some Note\"\r\n}"
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+  - name: Authentication
+    value: Bearer {{token}}
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1667951230875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

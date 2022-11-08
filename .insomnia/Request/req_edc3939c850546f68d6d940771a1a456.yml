@@ -1,0 +1,78 @@
+_id: req_edc3939c850546f68d6d940771a1a456
+type: Request
+parentId: fld_efb8ccd336274a57ac7019dcab1c0d62
+modified: 1667951231686
+created: 1667951231686
+url: "{{protocol}}://{{host}}:{{port}}/{{baseUrlV2}}/companies/!{{company}}/acc\
+  rual/1/balances"
+name: Accrual (POST)
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: "{\r
+
+    \  \"accrual_balances\": [\r
+
+    \    {\r
+
+    \      \"company\": {\r
+
+    \        \"short_name\": \"ptoexchange\"\r
+
+    \      },\r
+
+    \      \"employee\": {\r
+
+    \        \"account_id\": \"3271979\"\r
+
+    \      },\r
+
+    \      \"time_off\": {\r
+
+    \        \"name\": \"vacation\"\r
+
+    \      },\r
+
+    \      \"as_of_date\": \"2022-06-13\",\r
+
+    \      \"updated_to_date\": {\r
+
+    \        \"date\": \"2022-06-13\",\r
+
+    \        \"set_to_end_of_accrual_year\": false\r
+
+    \      },\r
+
+    \      \"hours\": \"150:00\",\r
+
+    \      \"import_reflects_old_taken\": true,\r
+
+    \      \"import_reflects_old_scheduled\": false,\r
+
+    \      \"external_taken\": \"6.00\"\r
+
+    \    }\r
+
+    \  ]\r
+
+    }"
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: Accept
+    value: application/json
+  - name: Authentication
+    value: Bearer {{token}}
+  - name: X-FORWARDED-PROTO
+    value: https
+authentication: {}
+metaSortKey: -1667951231686
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

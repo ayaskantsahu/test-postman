@@ -1,0 +1,26 @@
+_id: req_48e014f2431d48039630668a5ee13b72
+type: Request
+parentId: fld_9ce02063f17d4b17bc4f55fbdb824d01
+modified: 1667951230742
+created: 1667951230742
+url: "{{protocol}}://{{host}}:{{port}}/{{baseUrlV2}}/companies/{{companyId}}/pa\
+  yrolls/{{payrollId}}/pay-statements/{{payStatementId}}"
+name: Paystatement (GET)
+description: Aggregated employee profile
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+  - name: Authentication
+    value: bearer {{token}}
+authentication: {}
+metaSortKey: -1667951230742
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

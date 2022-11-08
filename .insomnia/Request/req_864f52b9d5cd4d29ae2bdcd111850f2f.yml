@@ -1,0 +1,33 @@
+_id: req_864f52b9d5cd4d29ae2bdcd111850f2f
+type: Request
+parentId: fld_6cf69c14dd114362a9e3edacad2f4b1f
+modified: 1667951230936
+created: 1667951230936
+url: "{{protocol}}://{{host}}:{{port}}/{{baseUrl}}/import/123"
+name: /import/{type_id}
+description: File import
+method: POST
+body:
+  params:
+    - type: file
+      name: file
+      disabled: false
+      fileName: /C:/Data/Provider Info/UKG_Kronos/setDeductions.csv
+  mimeType: multipart/form-data
+parameters: []
+headers:
+  - name: Accept
+    value: application/xml
+  - name: Authentication
+    value: bearer {{token}}
+  - name: ""
+    value: ""
+authentication: {}
+metaSortKey: -1667951230936
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

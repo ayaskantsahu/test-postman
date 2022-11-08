@@ -1,0 +1,23 @@
+_id: req_9201b743a2c94f18a965345bff422bfe
+type: Request
+parentId: fld_2fd4ac10b8f54ecd9bee52a5e4c27fbb
+modified: 1667951231519
+created: 1667951231519
+url: "{{protocol}}://{{host}}:{{port}}/{{baseUrl}}/company/pay-types?filter=id:in:"
+name: /company/pay-types
+description: login to get token
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - name: authentication
+    value: bearer {{token}}
+authentication: {}
+metaSortKey: -1667951231519
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

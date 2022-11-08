@@ -1,0 +1,26 @@
+_id: req_1f23354616fe42ee98e279777de59651
+type: Request
+parentId: fld_c114e59dd1cb4d7facf9c759109910de
+modified: 1667951230791
+created: 1667951230791
+url: "{{protocol}}://{{host}}:{{port}}/{{baseUrlV2}}/companies/|{{company}}/loo\
+  kup/loa/reasons"
+name: LOA Reasons (LOOKUP)
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+  - name: Authentication
+    value: Bearer {{token}}
+authentication: {}
+metaSortKey: -1667951230791
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

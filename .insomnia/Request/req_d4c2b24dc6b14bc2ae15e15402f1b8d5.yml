@@ -1,0 +1,26 @@
+_id: req_d4c2b24dc6b14bc2ae15e15402f1b8d5
+type: Request
+parentId: fld_f8606d7fc3074bb9b8ce05117eb8b70a
+modified: 1667951230929
+created: 1667951230929
+url: "{{protocol}}://{{host}}:{{port}}/{{baseUrlV2}}/companies/|{{company}}/loa\
+  /cases/"
+name: Cases List (GET)
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+  - name: Authentication
+    value: Bearer {{token}}
+authentication: {}
+metaSortKey: -1667951230929
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

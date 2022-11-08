@@ -1,0 +1,26 @@
+_id: req_8116141e4d194348a4d55af2f7c5ea4f
+type: Request
+parentId: fld_c693b77a4adc4044af8fc434ad42522f
+modified: 1667951230769
+created: 1667951230769
+url: "{{protocol}}://{{host}}:{{port}}/{{baseUrlV2}}/companies/|{{company}}/pay\
+  -periods/{{payPeriodId}}/snapshots"
+name: Pay-Period Snapshot List (GET)
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+  - name: Authentication
+    value: Bearer {{token}}
+authentication: {}
+metaSortKey: -1667951230769
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

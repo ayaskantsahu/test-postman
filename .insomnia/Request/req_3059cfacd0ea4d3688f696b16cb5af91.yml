@@ -1,0 +1,23 @@
+_id: req_3059cfacd0ea4d3688f696b16cb5af91
+type: Request
+parentId: fld_a934cb1a389940a19165ae3e79e47239
+modified: 1667951231480
+created: 1667951231480
+url: "{{protocol}}://{{host}}:{{port}}/{{baseUrl}}/company/profiles"
+name: /company/profiles
+description: Get all company's profiles
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Authentication
+    value: bearer {{token}}
+authentication: {}
+metaSortKey: -1667951231480
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

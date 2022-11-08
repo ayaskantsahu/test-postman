@@ -1,0 +1,26 @@
+_id: req_dc411134389d4dd7b309fdcfb0feda76
+type: Request
+parentId: fld_2514d288152f48c7b4430b6ccc79b1c7
+modified: 1667951231353
+created: 1667951231353
+url: "{{protocol}}://{{host}}:{{port}}/{{baseUrlV2}}/companies/|{{company}}/ids\
+  /{{docId}}"
+name: Document Metadata (GET)
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+  - name: Authentication
+    value: Bearer {{token}}
+authentication: {}
+metaSortKey: -1667951231353
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,26 @@
+_id: req_6a7ae0fdc06547ed888fa8046506ef6b
+type: Request
+parentId: fld_a19a04d6ae99457bb9db5849c76cd2d3
+modified: 1667951231270
+created: 1667951231270
+url: "{{protocol}}://{{host}}:{{port}}/{{baseUrlV2}}/companies/|{{company}}/emp\
+  loyees/{{accountId}}/compensation/history/{{baseCompensationId}}"
+name: Base Compensation (DELETE)
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/xml
+  - name: Authentication
+    value: Bearer {{token}}
+authentication: {}
+metaSortKey: -1667951231270
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

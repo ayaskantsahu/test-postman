@@ -1,0 +1,56 @@
+_id: req_dbb3bca38574431fb4f34bb1771d605c
+type: Request
+parentId: fld_ebd467266e7f43ce946bac684c95051f
+modified: 1667951230728
+created: 1667951230728
+url: "{{protocol}}://{{host}}:{{port}}/{{baseUrl}}/report/global/REPORT_CALCULA\
+  TED_TIME_TA_COUNTER_SUMMARY"
+name: Run Global Report with Options- current pay period
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "fields": [
+                "EmplEmployeeId",
+                "EmplFirstName",
+                "EmplLastName",
+                "TotalTimeByTACounter_9076992",
+                "EmplPayPeriodProfile"
+      ],
+      "filters": [
+        {
+          "field_name":"EmplPayPeriodProfile",
+          "operator":"=",
+          "values":["WEEKLY"]
+        }
+        ],
+        "selectors": [
+        {
+          "name": "TACounterRecordDate",
+          "parameters": {
+              "RangeType":"3",
+              "PayPeriodProfile": "331840",
+                              "PayPeriodType": "1"
+          }
+        }
+      ]
+    }
+parameters: []
+headers:
+  - name: Accept
+    value: text/csv
+  - name: Authentication
+    value: Bearer {{token}}
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1667951230728
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

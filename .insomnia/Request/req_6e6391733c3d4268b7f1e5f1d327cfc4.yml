@@ -1,0 +1,25 @@
+_id: req_6e6391733c3d4268b7f1e5f1d327cfc4
+type: Request
+parentId: fld_efb8ccd336274a57ac7019dcab1c0d62
+modified: 1667951231644
+created: 1667951231644
+url: https://partner.saashr.com/ta/rest/v2/companies/|{{company}}/employees/3287170/accrual/2/balances
+name: Accrual V2
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Authentication
+    value: Bearer {{token}}
+  - name: Accept
+    value: application/json
+authentication: {}
+metaSortKey: -1667951231644
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

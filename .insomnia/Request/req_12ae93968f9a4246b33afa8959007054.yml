@@ -1,0 +1,26 @@
+_id: req_12ae93968f9a4246b33afa8959007054
+type: Request
+parentId: fld_a19a04d6ae99457bb9db5849c76cd2d3
+modified: 1667951231296
+created: 1667951231296
+url: "{{protocol}}://{{host}}:{{port}}/{{baseUrlV2}}/companies/|{{company}}/emp\
+  loyees/{{accountId}}/compensation/history"
+name: Base Compensation List (GET)
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+  - name: Authentication
+    value: Bearer {{token}}
+authentication: {}
+metaSortKey: -1667951231296
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

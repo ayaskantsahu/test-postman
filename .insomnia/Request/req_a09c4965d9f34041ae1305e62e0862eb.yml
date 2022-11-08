@@ -1,0 +1,157 @@
+_id: req_a09c4965d9f34041ae1305e62e0862eb
+type: Request
+parentId: fld_7e5975c51d194f08b5e49e20f24f48fc
+modified: 1667951231003
+created: 1667951231003
+url: "{{protocol}}://{{host}}:{{port}}/{{baseUrlV2}}/companies/|{{company}}/emp\
+  loyees/{{employeeV2Id}}"
+name: Employee (PUT)
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: "{\r
+
+    \    \"id\": 8640348811,\r
+
+    \    \"employee_id\": \"1002\",\r
+
+    \    \"username\": \"1002\",\r
+
+    \    \"first_name\": \"John\",\r
+
+    \    \"last_name\": \"Smith2\",\r
+
+    \    \"primary_account_id\": 8640348811,\r
+
+    \    \"_links\": {\r
+
+    \        \"self\":
+    \"https://secure3.saashr.com/ta/rest/v2/companies/50400243/employees/864034\
+    8811\",\r
+
+    \        \"demographics\":
+    \"https://secure3.saashr.com/ta/rest/v2/companies/50400243/employees/864034\
+    8811/demographics\",\r
+
+    \        \"badges\":
+    \"https://secure3.saashr.com/ta/rest/v2/companies/50400243/employees/864034\
+    8811/badges\",\r
+
+    \        \"pay-info\":
+    \"https://secure3.saashr.com/ta/rest/v2/companies/50400243/employees/864034\
+    8811/pay-info\",\r
+
+    \        \"profiles\":
+    \"https://secure3.saashr.com/ta/rest/v2/companies/50400243/employees/864034\
+    8811/profiles\"\r
+
+    \    },\r
+
+    \    \"photo_href\":
+    \"https://secure3.saashr.com/ta/fs?ticket=eyJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE2\
+    MTE3NTk4NTQsImV4cCI6MTYxMTc2NzA1NCwidHlwZSI6IkFjY291bnRQaG90byIsInBhcmFtcyI\
+    6eyJpZCI6Ijg2NDAzNDg4MTEiLCJ0eXBlIjoiQUNDT1VOVCJ9LCJhY2Nlc3MiOiJSRUFEX1dSSV\
+    RFIn0.3ntfXzC3lOQRUmD4gIebLy4GONUK0U0lnDonCz79KEDeJprS34LxGjInUI_0W0IHewUp1\
+    NmOnGcyfLvJm5cAkQ\",\r
+
+    \    \"status\": \"Active\",\r
+
+    \    \"locked\": false,\r
+
+    \    \"force_change_password\": true,\r
+
+    \    \"social_security\": \"123456666\",\r
+
+    \    \"first_screen\": {\r
+
+    \        \"id\": \"SCREEN:101\"\r
+
+    \    },\r
+
+    \    \"address\": {\r
+
+    \        \"address_line_1\": \"123 Main Street\",\r
+
+    \        \"country\": \"USA\",\r
+
+    \        \"city\": \"Denver\",\r
+
+    \        \"state\": \"CO\",\r
+
+    \        \"zip\": \"80014\"\r
+
+    \    },\r
+
+    \    \"use_separate_mailing_address\": false,\r
+
+    \    \"timezone\": \"America/New_York\",\r
+
+    \    \"dates\": {\r
+
+    \        \"hired\": \"2017-02-01\",\r
+
+    \        \"started\": \"2017-02-01\",\r
+
+    \        \"birthday\": \"1984-07-18\"\r
+
+    \    },\r
+
+    \    \"managers\": [\r
+
+    \        {\r
+
+    \            \"index\": 0,\r
+
+    \            \"empl_ref\": {\r
+
+    \                \"account_id\": 8640348809\r
+
+    \            }\r
+
+    \        }\r
+
+    \    ],\r
+
+    \    \"ein\": {\r
+
+    \        \"id\": 51533187\r
+
+    \    },\r
+
+    \    \"add_to_new_hire_export\": true,\r
+
+    \    \"managed_cost_centers_enabled\": false,\r
+
+    \    \"national_id_numbers\": [\r
+
+    \        {\r
+
+    \            \"type\": \"SSN\",\r
+
+    \            \"value\": \"123456666\",\r
+
+    \            \"primary\": true\r
+
+    \        }\r
+
+    \    ]\r
+
+    }"
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+  - name: Authentication
+    value: Bearer {{token}}
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1667951231003
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

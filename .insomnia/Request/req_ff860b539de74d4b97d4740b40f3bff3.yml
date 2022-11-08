@@ -1,0 +1,27 @@
+_id: req_ff860b539de74d4b97d4740b40f3bff3
+type: Request
+parentId: fld_08e03a560c3a41d4a4d7a5eda098d72f
+modified: 1667951230702
+created: 1667951230702
+url: "{{protocol}}://{{host}}:{{port}}/{{baseurl}}/employee/todo"
+name: todo-investigation
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: Authentication
+    value: bearer {{token}}
+  - name: Accept
+    value: application/json
+authentication: {}
+metaSortKey: -1667951230702
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

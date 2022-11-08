@@ -1,0 +1,26 @@
+_id: req_43fb2c45fca34d92a6ab9e6c8908c2c5
+type: Request
+parentId: fld_f5a1ba70364f4f32bd5735a376564644
+modified: 1667951231426
+created: 1667951231426
+url: "{{protocol}}://{{host}}:{{port}}/{{baseUrlV2}}/companies/|{{company}}/con\
+  fig/cost-centers?tree_index=8"
+name: Cost Center List (GET)
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+  - name: Authentication
+    value: Bearer {{token}}
+authentication: {}
+metaSortKey: -1667951231426
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

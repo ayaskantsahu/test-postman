@@ -1,0 +1,26 @@
+_id: req_918f1d4862214b5e9e5e433ec3c2c00c
+type: Request
+parentId: fld_9f5d72b8ef774c45995d5bc133bacb65
+modified: 1667951231555
+created: 1667951231555
+url: "{{protocol}}://{{host}}:{{port}}/{{baseUrlV2}}/companies/|{{company}}/cal\
+  endar/birthday?date_from=2016-01-01&date_to=2016-12-31"
+name: Birthday Calendar (GET)
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/xml
+  - name: Authentication
+    value: Bearer {{token}}
+authentication: {}
+metaSortKey: -1667951231555
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

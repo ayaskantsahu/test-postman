@@ -1,0 +1,25 @@
+_id: req_52626f5e05c24c82a334a9b15cd4ae13
+type: Request
+parentId: fld_6cf69c14dd114362a9e3edacad2f4b1f
+modified: 1667951230939
+created: 1667951230939
+url: "{{protocol}}://{{host}}:{{port}}/{{baseUrl}}/import/status/123"
+name: /import/status/{job_id}
+description: Import job status
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/xml
+  - name: Authentication
+    value: bearer {{token}}
+authentication: {}
+metaSortKey: -1667951230939
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

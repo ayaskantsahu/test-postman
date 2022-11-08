@@ -1,0 +1,26 @@
+_id: req_e64df7e5e29d41109695a6dba79b5ef4
+type: Request
+parentId: fld_7d1c5d4391ed440d8f5522aa4f7fde6a
+modified: 1667951231120
+created: 1667951231120
+url: "{{protocol}}://{{host}}:{{port}}/{{baseUrlV2}}/companies/|{{company}}/emp\
+  loyees/{{employeeV2Id}}/badges"
+name: Employee Badges (GET)
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+  - name: Authentication
+    value: Bearer {{token}}
+authentication: {}
+metaSortKey: -1667951231120
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

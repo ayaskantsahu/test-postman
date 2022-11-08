@@ -1,0 +1,385 @@
+_id: req_400ef0fb360f412083e5a26bc80e4403
+type: Request
+parentId: fld_6410c5a45b9f495e96116c26cab4c22b
+modified: 1667951230717
+created: 1667951230717
+url: "{{protocol}}://{{host}}:{{port}}/{{baseUrl}}/employee/time-entries"
+name: Insert-> /employee/time-entries. xml
+description: ""
+method: POST
+body:
+  mimeType: application/xml
+  text: "<?xml version=\"1.0\" encoding=\"UTF-8\" ?>\r
+
+    \  <entries>\r
+
+    \        <entry>\r
+
+    \        <company>rest.enabled</company>\r
+
+    \        <employee>\r
+
+    \          <account_id>2201218</account_id>\r
+
+    \        </employee>\r
+
+    \        <date>09-22-2015</date>\r
+
+    \        <total></total>\r
+
+    \        <start_time>15:00</start_time>\r
+
+    \        <end_time>12:00</end_time>\r
+
+    \        <time_off>\r
+
+    \          <name></name>\r
+
+    \          <external_id></external_id>\r
+
+    \          <path></path>\r
+
+    \          <payroll_code></payroll_code>\r
+
+    \        </time_off>\r
+
+    \        <pay_category>\r
+
+    \          <name>OVERTIME</name>\r
+
+    \          <payroll_code></payroll_code>\r
+
+    \        </pay_category>\r
+
+    \        <premium_shift>\r
+
+    \          <name></name>\r
+
+    \        </premium_shift>\r
+
+    \        <cost_center_1>\r
+
+    \          <name>Cost1</name>\r
+
+    \          <external_id></external_id>\r
+
+    \          <path></path>\r
+
+    \          <payroll_code></payroll_code>\r
+
+    \        </cost_center_1>\r
+
+    \        <cost_center_2 />\r
+
+    \        <cost_center_3 />\r
+
+    \        <cost_center_4 />\r
+
+    \        <cost_center_5 />\r
+
+    \        <cost_center_6 />\r
+
+    \        <cost_center_7 />\r
+
+    \        <cost_center_8 />\r
+
+    \      \r
+
+    \        <extra_field_3 />\r
+
+    \        <extra_field_4 />\r
+
+    \        <extra_field_5 />\r
+
+    \        </entry>\r
+
+    \      <entry>\r
+
+    \        <company>rest.enabled</company>\r
+
+    \        <employee>\r
+
+    \          <account_id>22011218</account_id>\r
+
+    \        </employee>\r
+
+    \        <date>09-22-2015</date>\r
+
+    \        <total>4</total>\r
+
+    \        <start_time>12:00</start_time>\r
+
+    \        <end_time>13:00</end_time>\r
+
+    \        <time_off>\r
+
+    \          <name>Ill</name>\r
+
+    \          <external_id></external_id>\r
+
+    \          <path></path>\r
+
+    \          <payroll_code></payroll_code>\r
+
+    \        </time_off>\r
+
+    \        <pay_category>\r
+
+    \          <name></name>\r
+
+    \          <payroll_code></payroll_code>\r
+
+    \        </pay_category>\r
+
+    \        <premium_shift>\r
+
+    \          <name></name>\r
+
+    \        </premium_shift>\r
+
+    \        <cost_center_1>\r
+
+    \          <name>Cost1</name>\r
+
+    \          <external_id></external_id>\r
+
+    \          <path></path>\r
+
+    \          <payroll_code></payroll_code>\r
+
+    \        </cost_center_1>\r
+
+    \        <cost_center_2 />\r
+
+    \        <cost_center_3 />\r
+
+    \        <cost_center_4 />\r
+
+    \        <cost_center_5 />\r
+
+    \        <cost_center_6 />\r
+
+    \        <cost_center_7 />\r
+
+    \        <cost_center_8 />\r
+
+    \        <cost_center_9>\r
+
+    \          <external_id>sadfsa</external_id>\r
+
+    \        </cost_center_9>\r
+
+    \        <cost_center_10 />\r
+
+    \        <extra_field_1 />\r
+
+    \        <extra_field_2>extrabla</extra_field_2>\r
+
+    \        <extra_field_3 />\r
+
+    \        <extra_field_4 />\r
+
+    \        <extra_field_5 />\r
+
+    \        </entry>\r
+
+    \        <entry>\r
+
+    \        <company>admin</company>\r
+
+    \        <employee>\r
+
+    \          <account_id>22011218</account_id>\r
+
+    \        </employee>\r
+
+    \        <date>09-22-2015</date>\r
+
+    \        <total>4</total>\r
+
+    \        <start_time>12:00</start_time>\r
+
+    \        <end_time>13:00</end_time>\r
+
+    \        <time_off>\r
+
+    \          <name>Ill</name>\r
+
+    \          <external_id></external_id>\r
+
+    \          <path></path>\r
+
+    \          <payroll_code></payroll_code>\r
+
+    \        </time_off>\r
+
+    \        <pay_category>\r
+
+    \          <name></name>\r
+
+    \          <payroll_code></payroll_code>\r
+
+    \        </pay_category>\r
+
+    \        <premium_shift>\r
+
+    \          <name></name>\r
+
+    \        </premium_shift>\r
+
+    \        <cost_center_1>\r
+
+    \          <name>Cost1</name>\r
+
+    \          <external_id></external_id>\r
+
+    \          <path></path>\r
+
+    \          <payroll_code></payroll_code>\r
+
+    \        </cost_center_1>\r
+
+    \        <cost_center_2 />\r
+
+    \        <cost_center_3 />\r
+
+    \        <cost_center_4 />\r
+
+    \        <cost_center_5 />\r
+
+    \        <cost_center_6 />\r
+
+    \        <cost_center_7 />\r
+
+    \        <cost_center_8 />\r
+
+    \        <cost_center_9>\r
+
+    \          <external_id>sadfsa</external_id>\r
+
+    \        </cost_center_9>\r
+
+    \        <cost_center_10 />\r
+
+    \        <extra_field_1 />\r
+
+    \        <extra_field_2>extrabla</extra_field_2>\r
+
+    \        <extra_field_3 />\r
+
+    \        <extra_field_4 />\r
+
+    \        <extra_field_5 />\r
+
+    \        </entry>\r
+
+    \        <entry>\r
+
+    \        <company>training</company>\r
+
+    \        <employee>\r
+
+    \          <account_id>2200961</account_id>\r
+
+    \        </employee>\r
+
+    \        <date>09-22-2015</date>\r
+
+    \        <total>4</total>\r
+
+    \        <start_time>12:00</start_time>\r
+
+    \        <end_time>13:00</end_time>\r
+
+    \        <time_off>\r
+
+    \          <name>Ill</name>\r
+
+    \          <external_id></external_id>\r
+
+    \          <path></path>\r
+
+    \          <payroll_code></payroll_code>\r
+
+    \        </time_off>\r
+
+    \        <pay_category>\r
+
+    \          <name></name>\r
+
+    \          <payroll_code></payroll_code>\r
+
+    \        </pay_category>\r
+
+    \        <premium_shift>\r
+
+    \          <name></name>\r
+
+    \        </premium_shift>\r
+
+    \        <cost_center_1>\r
+
+    \          <name>Cost1</name>\r
+
+    \          <external_id></external_id>\r
+
+    \          <path></path>\r
+
+    \          <payroll_code></payroll_code>\r
+
+    \        </cost_center_1>\r
+
+    \        <cost_center_2 />\r
+
+    \        <cost_center_3 />\r
+
+    \        <cost_center_4 />\r
+
+    \        <cost_center_5 />\r
+
+    \        <cost_center_6 />\r
+
+    \        <cost_center_7 />\r
+
+    \        <cost_center_8 />\r
+
+    \        <cost_center_9>\r
+
+    \          <external_id>sadfsa</external_id>\r
+
+    \        </cost_center_9>\r
+
+    \        <cost_center_10 />\r
+
+    \        <extra_field_1 />\r
+
+    \        <extra_field_2>extrabla</extra_field_2>\r
+
+    \        <extra_field_3 />\r
+
+    \        <extra_field_4 />\r
+
+    \        <extra_field_5 />\r
+
+    \        </entry>\r
+
+    \  </entries>\r
+
+    \  \r\n"
+parameters: []
+headers:
+  - name: Authentication
+    value: bearer {{token}}
+  - name: Content-Type
+    value: application/xml
+  - name: Accept
+    value: application/xml
+authentication: {}
+metaSortKey: -1667951230717
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,77 @@
+_id: req_da013751a30f4d0d958eda5230377999
+type: Request
+parentId: fld_6410c5a45b9f495e96116c26cab4c22b
+modified: 1667951230713
+created: 1667951230713
+url: "{{protocol}}://{{host}}:{{port}}/{{baseUrl}}/employee/time-entries"
+name: insert-> /employee/time-entries.json
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "entries": [
+        {
+            "id":"215437828",
+          "company": "rest.enabled",
+          "employee": {
+                "account_id": "2201218"
+              },
+          "date": "09-22-2015",
+          "total": "4",
+          "start_time":"",
+          "end_time":"18:00",
+          "time_off": {
+            
+              "external_id" : "",
+              "path":"",
+              "payroll_code":""
+          },
+          "pay_category": {
+              "name":"",
+              "payroll_code":""
+          },
+          "premium_shift": {
+              "name":""
+          },
+          "cost_center_1": {
+              "name":"Cost1",
+              "external_id" : "",
+              "path":"",
+              "payroll_code":""
+          },
+          "cost_center_2": null,
+          "cost_center_3": null,
+          "cost_center_4": null,
+          "cost_center_5": null,
+          "cost_center_6": null,
+          "cost_center_7": null,
+          "cost_center_8": null,
+         
+          "cost_center_10": null,
+          "extra_field_1": null,
+          "extra_field_2": "extrabla",
+          "extra_field_3": null,
+          "extra_field_4": null,
+          "extra_field_5": null
+        }
+      ]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: Authentication
+    value: bearer {{token}}
+  - name: Accept
+    value: application/json
+authentication: {}
+metaSortKey: -1667951230713
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

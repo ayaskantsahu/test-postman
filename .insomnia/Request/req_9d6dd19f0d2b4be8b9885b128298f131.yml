@@ -1,0 +1,26 @@
+_id: req_9d6dd19f0d2b4be8b9885b128298f131
+type: Request
+parentId: fld_b26887427440446c812b4174af949610
+modified: 1667951231051
+created: 1667951231051
+url: "{{protocol}}://{{host}}:{{port}}/{{baseUrlV2}}/companies/|{{company}}/emp\
+  loyees/{{employeeV2Id}}/pay-info"
+name: Employee Pay Information (GET)
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+  - name: Authentication
+    value: Bearer {{token}}
+authentication: {}
+metaSortKey: -1667951231051
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

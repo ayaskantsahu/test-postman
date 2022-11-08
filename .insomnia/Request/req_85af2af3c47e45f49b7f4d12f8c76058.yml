@@ -1,0 +1,30 @@
+_id: req_85af2af3c47e45f49b7f4d12f8c76058
+type: Request
+parentId: fld_f8606d7fc3074bb9b8ce05117eb8b70a
+modified: 1667951230796
+created: 1667951230796
+url: "{{protocol}}://{{host}}:{{port}}/{{baseUrlV2}}/companies/|{{company}}/loa\
+  /requests/{{loaRequestId}}/notes"
+name: Request Note (POST)
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: "{\r\n  \"text\": \"Some Note\"\r\n}"
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+  - name: Authentication
+    value: Bearer {{token}}
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1667951230796
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

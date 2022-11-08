@@ -1,0 +1,25 @@
+_id: req_826c23f8d8fb4bb6b187c7daae85102d
+type: Request
+parentId: fld_6cf69c14dd114362a9e3edacad2f4b1f
+modified: 1667951230937
+created: 1667951230937
+url: "{{protocol}}://{{host}}:{{port}}/{{baseUrl}}/imports"
+name: /imports
+description: "List with supported file imports "
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: text/xml
+  - name: Authentication
+    value: bearer {{token}}
+authentication: {}
+metaSortKey: -1667951230937
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

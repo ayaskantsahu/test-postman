@@ -1,0 +1,26 @@
+_id: req_9f3636fa65f84739a7280c3b7ff90af5
+type: Request
+parentId: fld_bfb89ad80c9244ffb5afb9640b4b04b0
+modified: 1667951231572
+created: 1667951231572
+url: "{{protocol}}://{{host}}:{{port}}/{{baseUrlV2}}/companies/|{{company}}/emp\
+  loyees/{{accountId}}/attendance"
+name: Employee Attendance (GET)
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/xml
+  - name: Authentication
+    value: Bearer {{token}}
+authentication: {}
+metaSortKey: -1667951231572
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

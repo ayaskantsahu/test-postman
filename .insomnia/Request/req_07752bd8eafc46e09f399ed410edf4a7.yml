@@ -1,0 +1,26 @@
+_id: req_07752bd8eafc46e09f399ed410edf4a7
+type: Request
+parentId: fld_ad798017a5f44411a09c0ffe9af4e819
+modified: 1667951231731
+created: 1667951231731
+url: "{{protocol}}://{{host}}:{{port}}/{{baseUrlV2}}/companies/|{{company}}/con\
+  fig/security/account-groups/{{accountGroupId}}"
+name: Account Group (DELETE)
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+  - name: Authentication
+    value: Bearer {{token}}
+authentication: {}
+metaSortKey: -1667951231731
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

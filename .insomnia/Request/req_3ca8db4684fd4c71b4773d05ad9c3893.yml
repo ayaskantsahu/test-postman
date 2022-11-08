@@ -1,0 +1,29 @@
+_id: req_3ca8db4684fd4c71b4773d05ad9c3893
+type: Request
+parentId: fld_770eda26898c447c98e0e8da1f4f04cf
+modified: 1667951231461
+created: 1667951231461
+url: "{{protocol}}://{{host}}:{{port}}/{{baseUrl}}/company/skills"
+name: update-> /company/skills
+description: ""
+method: PUT
+body:
+  params:
+    - type: file
+      name: file
+      disabled: false
+      fileName: null
+  mimeType: multipart/form-data
+parameters: []
+headers:
+  - name: Authentication
+    value: bearer {{token}}
+authentication: {}
+metaSortKey: -1667951231461
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,26 @@
+_id: req_f2485848484246b9878a7ceee78f5ddc
+type: Request
+parentId: fld_a19a04d6ae99457bb9db5849c76cd2d3
+modified: 1667951231287
+created: 1667951231287
+url: "{{protocol}}://{{host}}:{{port}}/{{baseUrlV2}}/companies/|{{company}}/com\
+  pensation/history/{{baseCompensationId}}"
+name: Base Compensation (GET)
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/xml
+  - name: Authentication
+    value: Bearer {{token}}
+authentication: {}
+metaSortKey: -1667951231287
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

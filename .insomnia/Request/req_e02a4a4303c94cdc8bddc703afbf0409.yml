@@ -1,0 +1,26 @@
+_id: req_e02a4a4303c94cdc8bddc703afbf0409
+type: Request
+parentId: fld_7e5975c51d194f08b5e49e20f24f48fc
+modified: 1667951231021
+created: 1667951231021
+url: "{{protocol}}://{{host}}:{{port}}/{{baseUrlV2}}/companies/|{{company}}/emp\
+  loyees/{{employeeV2Id}}"
+name: Employee (GET)
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+  - name: Authentication
+    value: Bearer {{token}}
+authentication: {}
+metaSortKey: -1667951231021
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

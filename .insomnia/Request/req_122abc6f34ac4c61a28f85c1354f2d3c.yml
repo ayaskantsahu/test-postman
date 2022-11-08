@@ -1,0 +1,21 @@
+_id: req_122abc6f34ac4c61a28f85c1354f2d3c
+type: Request
+parentId: fld_efb8ccd336274a57ac7019dcab1c0d62
+modified: 1667951231655
+created: 1667951231655
+url: "{{protocol}}://{{host}}:{{port}}/{{baseUrl}}/employee/accrual-balances"
+name: New Request
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1667951231655
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

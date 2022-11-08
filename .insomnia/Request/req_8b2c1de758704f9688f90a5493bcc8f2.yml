@@ -1,0 +1,26 @@
+_id: req_8b2c1de758704f9688f90a5493bcc8f2
+type: Request
+parentId: fld_ebd467266e7f43ce946bac684c95051f
+modified: 1667951230733
+created: 1667951230733
+url: "{{protocol}}://{{host}}:{{port}}/{{baseUrl}}/report/global/REPORT_ALL_SYS\
+  TEM_ACCOUNTS/metadata"
+name: Get Metadata of Global Report
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+  - name: Authentication
+    value: Bearer {{token}}
+authentication: {}
+metaSortKey: -1667951230733
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

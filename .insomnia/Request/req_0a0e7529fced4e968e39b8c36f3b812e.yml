@@ -1,0 +1,106 @@
+_id: req_0a0e7529fced4e968e39b8c36f3b812e
+type: Request
+parentId: fld_9247d26d8d1149eaa2a778a34a26a104
+modified: 1667951231229
+created: 1667951231229
+url: "{{protocol}}://{{host}}:{{port}}/{{baseUrlV2}}/companies/|{{company}}/con\
+  tacts"
+name: Contacts (POST)
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: "{\r
+
+    \  \"employee\":{\r
+
+    \    \"account_id\":\"{{accountId}}\"\r
+
+    \  },\r
+
+    \  \"primary\": true,\r
+
+    \  \"emergency\": true,\r
+
+    \  \"dependent\": false,\r
+
+    \  \"beneficiary\": false,\r
+
+    \  \"salutation\": \"Hola\",\r
+
+    \  \"first_name\": \"John\",\r
+
+    \  \"middle_name\": \"Bob\",\r
+
+    \  \"last_name\": \"Smith\",\r
+
+    \  \"name_suffix\": \"PhD\",\r
+
+    \  \"relationship\": \"Spouse\",\r
+
+    \  \"work_phone\": {\r
+
+    \    \"number\": \"+1(42)461-23-64\",\r
+
+    \    \"primary\": true\r
+
+    \  },\r
+
+    \  \"home_phone\": {\r
+
+    \    \"number\": \"+375(29)461-23-64\",\r
+
+    \    \"primary\": false\r
+
+    \  },\r
+
+    \  \"cell_phone\": {\r
+
+    \    \"number\": \"+91(33)461-23-64\",\r
+
+    \    \"primary\": false\r
+
+    \  },\r
+
+    \  \"email\": \"email@example.com\",\r
+
+    \  \"ssn\": \"123-45-6789\",\r
+
+    \  \"birthdate\": \"1982-09-21\",\r
+
+    \  \"gender\": \"MALE\",\r
+
+    \  \"height\": \"180cm\",\r
+
+    \  \"weight\": \"90kg\",\r
+
+    \  \"ethnicity\": \"HISPANIC_OR_LATINO\",\r
+
+    \  \"smoker\": false,\r
+
+    \  \"full_time_student\": false,\r
+
+    \  \"disability\": true,\r
+
+    \  \"always_eligible_for_benefit_plans\": true,\r
+
+    \  \"use_employee_address\": true\r
+
+    }"
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+  - name: Authentication
+    value: Bearer {{token}}
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1667951231229
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

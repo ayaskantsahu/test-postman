@@ -1,0 +1,36 @@
+_id: req_39392ccca65649d785c81463a6758d7a
+type: Request
+parentId: fld_e50b240310e249d8bd7fae1edd43e887
+modified: 1667951230726
+created: 1667951230726
+url: "{{protocol}}://{{host}}:{{port}}/{{baseUrlV2}}/companies/|{{company}}/acc\
+  ounts/{{accountId}}/security-question"
+name: Security Question (PUT)
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: "{\r
+
+    \  \"question\" : \"What's your mother's name?\",\r
+
+    \  \"answer\" : \"Susan\"\r
+
+    }"
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+  - name: Authentication
+    value: Bearer {{token}}
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1667951230726
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

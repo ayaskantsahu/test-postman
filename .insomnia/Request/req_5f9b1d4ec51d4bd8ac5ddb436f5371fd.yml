@@ -1,0 +1,26 @@
+_id: req_5f9b1d4ec51d4bd8ac5ddb436f5371fd
+type: Request
+parentId: fld_54d830bfcd224b1a878ad76a87ec183b
+modified: 1667951230707
+created: 1667951230707
+url: "{{protocol}}://{{host}}:{{port}}/{{baseUrlV2}}/companies/|{{company}}/emp\
+  loyees/{{accountId}}/punches/recent"
+name: Recent Punches (GET)
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/xml
+  - name: Authentication
+    value: Bearer {{token}}
+authentication: {}
+metaSortKey: -1667951230707
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

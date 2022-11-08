@@ -1,0 +1,25 @@
+_id: req_2081d486845749479d0d9041c43be134
+type: Request
+parentId: fld_ebd467266e7f43ce946bac684c95051f
+modified: 1667951230731
+created: 1667951230731
+url: "{{protocol}}://{{host}}:{{port}}/{{baseUrl}}/report/saved/844673"
+name: Download Saved Report
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: text/csv
+  - name: Authentication
+    value: Bearer {{token}}
+authentication: {}
+metaSortKey: -1667951230731
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,26 @@
+_id: req_34be698577e148d98fe5347443f099cf
+type: Request
+parentId: fld_c114e59dd1cb4d7facf9c759109910de
+modified: 1667951230790
+created: 1667951230790
+url: "{{protocol}}://{{host}}:{{port}}/{{baseUrlV2}}/companies/|{{company}}/loo\
+  kup/manual-counters?date=2016-01-01&owner_id=123456"
+name: Manual Counters (LOOKUP)
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/xml
+  - name: Authentication
+    value: Bearer {{token}}
+authentication: {}
+metaSortKey: -1667951230790
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

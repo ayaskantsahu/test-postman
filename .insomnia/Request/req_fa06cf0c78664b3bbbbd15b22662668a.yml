@@ -1,0 +1,29 @@
+_id: req_fa06cf0c78664b3bbbbd15b22662668a
+type: Request
+parentId: fld_e0083694d3c4457ab9dfe23ca5df3b54
+modified: 1667951231166
+created: 1667951231166
+url: "{{protocol}}://{{host}}:{{port}}/{{baseUrl}}/employee/contracts"
+name: update-> /employee/contracts
+description: ""
+method: PUT
+body:
+  params:
+    - type: file
+      name: file
+      disabled: false
+      fileName: null
+  mimeType: multipart/form-data
+parameters: []
+headers:
+  - name: Authentication
+    value: bearer {{token}}
+authentication: {}
+metaSortKey: -1667951231166
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

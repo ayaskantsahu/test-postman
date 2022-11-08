@@ -1,0 +1,84 @@
+_id: req_fa7dbe0ac7924b81bfc9c8379c2ee08f
+type: Request
+parentId: fld_7d1c5d4391ed440d8f5522aa4f7fde6a
+modified: 1667951231110
+created: 1667951231110
+url: "{{protocol}}://{{host}}:{{port}}/{{baseUrlV2}}/companies/|{{company}}/emp\
+  loyees/{{employeeV2Id}}/badges"
+name: Employee Badges (PUT)
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: "{\r
+
+    \  \"badges\": [\r
+
+    \    {\r
+
+    \      \"index\": 0,\r
+
+    \      \"badge_number\": 154785\r
+
+    \    },\r
+
+    \    {\r
+
+    \      \"index\": 2,\r
+
+    \      \"badge_number\": 1447752\r
+
+    \    },\r
+
+    \    {\r
+
+    \      \"index\": 3,\r
+
+    \      \"badge_number\": 7854269857,\r
+
+    \      \"pin\": \"9456\",\r
+
+    \      \"short_id\": \"4444\",\r
+
+    \      \"effective_from\": \"2017-01-01\",\r
+
+    \      \"effective_to\": \"2018-01-01\"\r
+
+    \    },\r
+
+    \    {\r
+
+    \      \"index\": 4,\r
+
+    \      \"badge_number\": 3157496854,\r
+
+    \      \"pin\": \"3333\",\r
+
+    \      \"short_id\": \"5555\",\r
+
+    \      \"effective_from\": \"2017-01-01\",\r
+
+    \      \"effective_to\": \"2018-01-01\"\r
+
+    \    }\r
+
+    \  ]\r
+
+    }"
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+  - name: Authentication
+    value: Bearer {{token}}
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1667951231110
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

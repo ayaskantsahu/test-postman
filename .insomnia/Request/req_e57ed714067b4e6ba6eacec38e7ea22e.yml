@@ -1,0 +1,26 @@
+_id: req_e57ed714067b4e6ba6eacec38e7ea22e
+type: Request
+parentId: fld_44661754a8db4f66929140214722c770
+modified: 1667951231250
+created: 1667951231250
+url: "{{protocol}}://{{host}}:{{port}}/{{privateV1}}/employees/4708805/benefit/\
+  plans"
+name: Benefits List (GET)
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+  - name: Authentication
+    value: Bearer {{token}}
+authentication: {}
+metaSortKey: -1667951231250
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

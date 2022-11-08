@@ -1,0 +1,46 @@
+_id: req_439af634fd5f4f738251cd44cb548e80
+type: Request
+parentId: fld_2514d288152f48c7b4430b6ccc79b1c7
+modified: 1667951231336
+created: 1667951231336
+url: "{{protocol}}://{{host}}:{{port}}/{{baseUrlV2}}/companies/|{{company}}/ids\
+  /{{docId}}"
+name: Document Metadata (PUT)
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "id": 16780097,
+      "type": "COMPANY_DOCUMENT",
+      "file_name": "Waltham_Logo.jpg",
+      "display_name": "Waltham Server Logo",
+      "file_date": "2017-03-13",
+      "document_type": {
+        "id": 38145,
+        "display_name": "Payslips"
+      },
+      "description": "A test document to downlod by the API",
+      "attributes": {
+        "category": "Test",
+        "directory": "/"
+      }
+    }
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+  - name: Authentication
+    value: Bearer {{token}}
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1667951231336
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

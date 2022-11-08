@@ -1,0 +1,44 @@
+_id: req_9adab2cccae843cda512ee9f00be34e6
+type: Request
+parentId: fld_c693b77a4adc4044af8fc434ad42522f
+modified: 1667951230760
+created: 1667951230760
+url: "{{protocol}}://{{host}}:{{port}}/{{baseUrlV2}}/companies/|{{company}}/pay\
+  -periods/{{payPeriodId}}/functions/export"
+name: Pay-Period Process Export - Delta (POST)
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: "{\r
+
+    \  \"payprep_from_id\":{{payPrepSnapshotId}},\r
+
+    \ \r
+
+    \  \"export_format_id\" : 144065,\r
+
+    \  \"export_records_type\":\"CURRENT_RECORDS_ALL_EMPS\",\r
+
+    \  \"payroll_employees_only\":\"false\",\r
+
+    \  \"user_prompts\" : []\r
+
+    }"
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+  - name: Authentication
+    value: Bearer {{token}}
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1667951230760
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

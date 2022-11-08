@@ -1,0 +1,36 @@
+_id: req_2a6242f9fc584c26801819aadb7978f0
+type: Request
+parentId: fld_71c6e2fc324b4f03beaee322e974b4c6
+modified: 1667951231760
+created: 1667951231760
+url: "{{protocol}}://{{host}}:{{port}}/{{baseUrl}}/login"
+name: /login (POST)
+description: login to get token
+method: POST
+body:
+  mimeType: application/json
+  text: |
+    {
+      "credentials": {
+        "username": "{{user}}",
+        "password": "{{password}}",
+        "company": "{{company}}"
+      }
+    }
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+  - name: Content-Type
+    value: application/json
+  - name: api-key
+    value: "{{api-key}}"
+authentication: {}
+metaSortKey: -1667951231760
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

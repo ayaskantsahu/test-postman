@@ -1,0 +1,26 @@
+_id: req_75619e2be4664fe8b5d72afde91739ab
+type: Request
+parentId: fld_9ce02063f17d4b17bc4f55fbdb824d01
+modified: 1667951230755
+created: 1667951230755
+url: "{{protocol}}://{{host}}:{{port}}/{{baseUrlV2}}/companies/{{payCompanyId}}\
+  /lookup/earning-codes"
+name: Earning Code Lookup (GET)
+description: Aggregated employee profile
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+  - name: Authentication
+    value: bearer {{token}}
+authentication: {}
+metaSortKey: -1667951230755
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

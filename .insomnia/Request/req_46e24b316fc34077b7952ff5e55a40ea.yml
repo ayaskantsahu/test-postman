@@ -1,0 +1,26 @@
+_id: req_46e24b316fc34077b7952ff5e55a40ea
+type: Request
+parentId: fld_54d830bfcd224b1a878ad76a87ec183b
+modified: 1667951230709
+created: 1667951230709
+url: "{{protocol}}://{{host}}:{{port}}/{{baseUrlV2}}/companies/|intl.demo/emplo\
+  yees/3361438/timesheets?date=2016-01-01"
+name: Get Timesheets copy
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+  - name: Authentication
+    value: Bearer {{token}}
+authentication: {}
+metaSortKey: -1667951230709
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

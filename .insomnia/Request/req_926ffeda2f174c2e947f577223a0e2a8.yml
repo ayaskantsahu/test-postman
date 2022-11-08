@@ -1,0 +1,21 @@
+_id: req_926ffeda2f174c2e947f577223a0e2a8
+type: Request
+parentId: fld_2514d288152f48c7b4430b6ccc79b1c7
+modified: 1667951231361
+created: 1667951231361
+url: https://secure3.saashr.com/ta/fs?ticket=eyJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE2MDg2NzE3NzEsImV4cCI6MTYwODY3ODk3MSwidHlwZSI6IkRvY1VwbG9hZCIsInBhcmFtcyI6eyJhY2NvdW50SWQiOiI4NjQwMzcyNjk0IiwiY29tcGFueUlkIjoiNTA0MDAyNDMiLCJ1cGxvYWRJZCI6IjYxNDA0NzM5IiwiaHJBY3Rpb25JZCI6bnVsbCwic2Vzc2lvbklkIjoiMTQ1MDc1MjQ5ODgifSwiYWNjZXNzIjoiUkVBRF9XUklURSJ9.keB0gHP4dXqpFv7r8fEILsQKqQq45f853BnanX4WgsZL3muXqlJybyRgp8uvxLsyjUZfgO6HA7Ut_yyQJqHpeg
+name: Download Document (DOWNLOAD)
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1667951231361
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

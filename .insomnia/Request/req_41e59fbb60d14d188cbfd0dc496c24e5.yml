@@ -1,0 +1,258 @@
+_id: req_41e59fbb60d14d188cbfd0dc496c24e5
+type: Request
+parentId: fld_7e5975c51d194f08b5e49e20f24f48fc
+modified: 1667951230992
+created: 1667951230992
+url: "{{protocol}}://{{host}}:{{port}}/{{baseUrlV2}}/companies/|{{company}}/emp\
+  loyees"
+name: Employee (POST)
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: "{\r
+
+    \    \"username\": \"JSMITH\",\r
+
+    \    \"first_name\": \"John\",\r
+
+    \    \"last_name\": \"Smith\",\r
+
+    \    \"photo_href\": null,\r
+
+    \    \"middle_name\": null,\r
+
+    \    \"external_id\": null,\r
+
+    \    \"employee_id\": 1021,\r
+
+    \    \"address\": {\r
+
+    \        \"address_line_1\": \"string\",\r
+
+    \        \"address_line_2\": \"string\",\r
+
+    \        \"address_line_3\": null,\r
+
+    \        \"country\": \"USA\",\r
+
+    \        \"city\": \"Miami\",\r
+
+    \        \"state\": \"FL\",\r
+
+    \        \"zip\": \"33132\",\r
+
+    \        \"number\": null,\r
+
+    \        \"number_addition\": null\r
+
+    \    },\r
+
+    \    \"use_separate_mailing_address\": false,\r
+
+    \    \"status\": \"string\",\r
+
+    \    \"bsn\": null,\r
+
+    \    \"ein\": {\r
+
+    \        \"id\": 10\r
+
+    \    },\r
+
+    \    \"force_change_password\": false,\r
+
+    \    \"locked\": true,\r
+
+    \    \"first_screen\": null,\r
+
+    \    \"phones\": {\r
+
+    \        \"cell_phone_country_id\": \"USA\",\r
+
+    \        \"cell_phone_country_code\": \"+1\",\r
+
+    \        \"cell_phone\": \"+333333333\",\r
+
+    \        \"home_phone_country_id\": \"USA\",\r
+
+    \        \"home_phone_country_code\": \"+1\",\r
+
+    \        \"home_phone\": \"+333333333\",\r
+
+    \        \"work_phone_country_id\": \"USA\",\r
+
+    \        \"work_phone_country_code\": \"+1\",\r
+
+    \        \"work_phone\": \"+333333333\",\r
+
+    \        \"preferred_phone\": \"WORK\"\r
+
+    \    },\r
+
+    \    \"locale\": null,\r
+
+    \    \"mailing_address\": {\r
+
+    \        \"address_line_1\": \"string\",\r
+
+    \        \"address_line_2\": \"string\",\r
+
+    \        \"address_line_3\": null,\r
+
+    \        \"country\": \"USA\",\r
+
+    \        \"city\": \"Miami\",\r
+
+    \        \"state\": \"FL\",\r
+
+    \        \"zip\": \"33132\",\r
+
+    \        \"number\": null,\r
+
+    \        \"number_addition\": null\r
+
+    \    },\r
+
+    \    \"managers\": [{\r
+
+    \            \"index\": 0,\r
+
+    \            \"empl_ref\": {\r
+
+    \                \"account_id\": 8640348809\r
+
+    \            }\r
+
+    \        }\r
+
+    \    ],\r
+
+    \    \"national_insurance\": null,\r
+
+    \    \"nickname\": \"string\",\r
+
+    \    \"primary_email\": \"chase.danoff@ukg.com\",\r
+
+    \    \"secondary_email\": null,\r
+
+    \    \"salutation\": \"string\",\r
+
+    \    \"social_insurance\": null,\r
+
+    \    \"social_security\": \"999999999\",\r
+
+    \    \"suffix\": \"string\",\r
+
+    \    \"timezone\": \"America/New_York\",\r
+
+    \    \"cost_centers_info\": null,\r
+
+    \    \"add_to_new_hire_export\": true,\r
+
+    \    \"dates\": {\r
+
+    \        \"hired\": \"2018-11-01\",\r
+
+    \        \"deceased\": \"2018-11-01\",\r
+
+    \        \"re_hired\": \"2013-05-22\",\r
+
+    \        \"started\": \"2002-11-05\",\r
+
+    \        \"birthday\": \"2002-06-24\",\r
+
+    \        \"review\": \"2016-02-20\",\r
+
+    \        \"seniority\": \"2019-08-19\",\r
+
+    \        \"frozen_benefit\": \"2018-02-04\",\r
+
+    \        \"benefits\": \"2002-11-16\",\r
+
+    \        \"retired\": \"2000-09-14\",\r
+
+    \        \"terminated\": \"2015-08-24\",\r
+
+    \        \"peo_hired\": \"2015-06-18\",\r
+
+    \        \"custom_dates\": [{\r
+
+    \                \"index\": 2,\r
+
+    \                \"date\": \"2000-04-21\"\r
+
+    \            }\r
+
+    \        ]\r
+
+    \    },\r
+
+    \    \"account_extra_fields\": null,\r
+
+    \    \"managed_cost_centers_enabled\": true,\r
+
+    \    \"managed_cost_centers_settings\": {\r
+
+    \        \"allow_save_others_cost_centers\": false\r
+
+    \    },\r
+
+    \    \"national_id_numbers\": [{\r
+
+    \            \"type\": \"SSN\",\r
+
+    \            \"value\": \"999999999\",\r
+
+    \            \"primary\": true\r
+
+    \        }\r
+
+    \    ],\r
+
+    \    \"_links\": {\r
+
+    \        \"self\":
+    \"https://example.com/ta/rest/v2/companies/453313/employees/10\",\r
+
+    \        \"demographics\":
+    \"https://example.com/ta/rest/v2/companies/453313/employees/10/demographics\
+    \",\r
+
+    \        \"pay-info\":
+    \"https://example.com/ta/rest/v2/companies/453313/employees/10/pay-info\",\r
+
+    \        \"badges\":
+    \"https://example.com/ta/rest/v2/companies/453313/employees/10/badges\",\r
+
+    \        \"profiles\":
+    \"https://example.com/ta/rest/v2/companies/453313/employees/10/profiles\",\r
+
+    \        \"hcm-profiles\":
+    \"https://example.com/ta/rest/v2/companies/453313/employees/10/hcm-profiles\
+    \",\r
+
+    \        \"hcm-fields\":
+    \"https://example.com/ta/rest/v2/companies/453313/employees/10/hcm-fields\"\
+    \r
+
+    \    }\r
+
+    }"
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+  - name: Authentication
+    value: Bearer {{token}}
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1667951230992
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

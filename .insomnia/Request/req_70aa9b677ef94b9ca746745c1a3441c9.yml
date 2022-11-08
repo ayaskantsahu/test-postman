@@ -1,0 +1,28 @@
+_id: req_70aa9b677ef94b9ca746745c1a3441c9
+type: Request
+parentId: fld_54d830bfcd224b1a878ad76a87ec183b
+modified: 1667951230708
+created: 1667951230708
+url: "{{protocol}}://{{host}}:{{port}}/{{baseUrlV2}}/companies/|intl.demo/times\
+  heets/59048578/action/CORRECT"
+name: Timesheet Action
+description: ""
+method: PUT
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/xml
+  - name: Authentication
+    value: Bearer {{token}}
+  - name: Authentication
+    value: test intl.demo,scott.davis
+authentication: {}
+metaSortKey: -1667951230708
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

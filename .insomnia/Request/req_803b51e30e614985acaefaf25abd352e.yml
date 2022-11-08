@@ -1,0 +1,26 @@
+_id: req_803b51e30e614985acaefaf25abd352e
+type: Request
+parentId: fld_9bbd855535a64cc18bc5de9cb6d30a97
+modified: 1667951230779
+created: 1667951230779
+url: "{{protocol}}://{{host}}:{{port}}/{{baseUrlV2}}/companies/|{{company}}/ove\
+  rtime/requests/{{overtimeRequestId}}/notes"
+name: Overtime Request Note (GET)
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+  - name: Authentication
+    value: Bearer {{token}}
+authentication: {}
+metaSortKey: -1667951230779
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

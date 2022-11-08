@@ -1,0 +1,25 @@
+_id: req_71252b0e111a4d5fb431c3fb11855fd5
+type: Request
+parentId: fld_3eb6ef5ba086410a9adbb50c5f0c8a70
+modified: 1667951230942
+created: 1667951230942
+url: "{{protocol}}://{{host}}:{{port}}/{{baseUrl}}/export/{{dataExportJobId}}"
+name: Export Status / Download (GET)
+description: list of avalible data exports
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+  - name: Authentication
+    value: bearer {{token}}
+authentication: {}
+metaSortKey: -1667951230942
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

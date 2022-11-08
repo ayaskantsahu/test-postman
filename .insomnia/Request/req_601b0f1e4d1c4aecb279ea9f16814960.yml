@@ -1,0 +1,24 @@
+_id: req_601b0f1e4d1c4aecb279ea9f16814960
+type: Request
+parentId: fld_a934cb1a389940a19165ae3e79e47239
+modified: 1667951231489
+created: 1667951231489
+url: "{{protocol}}://{{host}}:{{port}}/{{baseUrl}}/company/profiles?filter=type\
+  :in:PAY_CALC_PROFILE"
+name: /company/profiles (with filter)
+description: Get all company's profiles using filter
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Authentication
+    value: bearer {{token}}
+authentication: {}
+metaSortKey: -1667951231489
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

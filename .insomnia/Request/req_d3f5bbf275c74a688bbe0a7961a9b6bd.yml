@@ -1,0 +1,40 @@
+_id: req_d3f5bbf275c74a688bbe0a7961a9b6bd
+type: Request
+parentId: fld_e50b240310e249d8bd7fae1edd43e887
+modified: 1667951230724
+created: 1667951230724
+url: "{{protocol}}://{{host}}:{{port}}/{{baseUrlV2}}/companies/|{{company}}/acc\
+  ounts/{{accountId}}/lock"
+name: Lock (DELETE)
+description: ""
+method: DELETE
+body:
+  mimeType: application/json
+  text: "{\r
+
+    \  \"next_logon\": {\r
+
+    \    \"change_password\": false,\r
+
+    \    \"reset_authenticator\": false\r
+
+    \  }\r
+
+    }"
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+  - name: Authentication
+    value: Bearer {{token}}
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1667951230724
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

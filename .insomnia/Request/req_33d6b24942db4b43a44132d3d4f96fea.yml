@@ -1,0 +1,26 @@
+_id: req_33d6b24942db4b43a44132d3d4f96fea
+type: Request
+parentId: fld_efb8ccd336274a57ac7019dcab1c0d62
+modified: 1667951231704
+created: 1667951231704
+url: "{{protocol}}://{{host}}:{{port}}/{{baseUrl}}/employee/accrual-balances?co\
+  mpany=intl.demo"
+name: Accrual Company V1 (GET)
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/xml
+  - name: Authentication
+    value: Bearer {{token}}
+authentication: {}
+metaSortKey: -1667951231704
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,108 @@
+_id: req_055981cdd95e4214975dd03074811acc
+type: Request
+parentId: fld_f8606d7fc3074bb9b8ce05117eb8b70a
+modified: 1667951230926
+created: 1667951230926
+url: "{{protocol}}://{{host}}:{{port}}/{{baseUrlV2}}/companies/|{{company}}/loa\
+  /cases"
+name: Case (POST)
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: "{\r
+
+    \  \"employee\": {\r
+
+    \    \"account_id\": {{accountId}}\r
+
+    \  },\r
+
+    \  \"reason\": {\r
+
+    \    \"id\": {{loaReasonId}}\r
+
+    \  },\r
+
+    \  \"start_date\": \"2015-11-24\",\r
+
+    \  \"est_end_date\": \"2015-11-24\",\r
+
+    \  \"ignore_look_back_rules\": false,\r
+
+    \  \"status\": \"OPEN\",\r
+
+    \  \"categories\": [\r
+
+    \    {\r
+
+    \      \"id\": 3637504\r
+
+    \    }\r
+
+    \  ],\r
+
+    \  \"leave_time\": {\r
+
+    \    \"weekdays\": [\r
+
+    \      {\r
+
+    \        \"week_num\": 1,\r
+
+    \        \"weekday\": \"MONDAY\",\r
+
+    \        \"type\": \"START_END\",\r
+
+    \        \"from\": \"12:00\",\r
+
+    \        \"to\": \"19:30\",\r
+
+    \        \"total_time\": 27000000\r
+
+    \      },\r
+
+    \      {\r
+
+    \        \"week_num\": 2,\r
+
+    \        \"weekday\": \"THURSDAY\",\r
+
+    \        \"type\": \"START_END\",\r
+
+    \        \"from\": \"12:00\",\r
+
+    \        \"to\": \"19:30\",\r
+
+    \        \"total_time\": 27000000\r
+
+    \      }\r
+
+    \    ],\r
+
+    \    \"type\": \"INTERMITTENT_WEEKDAYS\",\r
+
+    \    \"weeks_in_cycle\": 2,\r
+
+    \    \"use_separate_settings\": false\r
+
+    \  }\r
+
+    }"
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+  - name: Authentication
+    value: Bearer {{token}}
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1667951230926
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

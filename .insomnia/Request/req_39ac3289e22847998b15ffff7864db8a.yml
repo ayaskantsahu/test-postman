@@ -1,0 +1,26 @@
+_id: req_39ac3289e22847998b15ffff7864db8a
+type: Request
+parentId: fld_e73e954eefc24f33875752fbc3ccf01e
+modified: 1667951231089
+created: 1667951231089
+url: "{{protocol}}://{{host}}:{{port}}/{{baseUrlV2}}/companies/|{{company}}/emp\
+  loyees/{{employeeV2Id}}/demographics"
+name: Employee Demographics (GET)
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+  - name: Authentication
+    value: Bearer {{token}}
+authentication: {}
+metaSortKey: -1667951231089
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

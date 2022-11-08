@@ -1,0 +1,26 @@
+_id: req_bd15ccdb45aa47ec9ac7463e3d33ac7a
+type: Request
+parentId: fld_1cba2dcf1a894a69ae762a6c124dbf8b
+modified: 1667951231626
+created: 1667951231626
+url: "{{protocol}}://{{host}}:{{port}}/{{baseUrlV2}}/companies/|{{company}}/emp\
+  loyees/4707083/announcements"
+name: Employee Announcements (GET)
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+  - name: Authentication
+    value: Bearer {{token}}
+authentication: {}
+metaSortKey: -1667951231626
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

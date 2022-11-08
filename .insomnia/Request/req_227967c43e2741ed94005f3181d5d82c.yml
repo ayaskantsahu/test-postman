@@ -1,0 +1,41 @@
+_id: req_227967c43e2741ed94005f3181d5d82c
+type: Request
+parentId: fld_2fd4ac10b8f54ecd9bee52a5e4c27fbb
+modified: 1667951231507
+created: 1667951231507
+url: "{{protocol}}://{{host}}:{{port}}/{{baseUrl}}/company/pay-types"
+name: company/pay-types
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "pay_types": [
+        {
+          "name": "A <script>alert(0)</script>",
+          "external_id": "5",
+          "order_index": 0,
+          "company":{
+            "short_name":"pb.tlm1.hr.acc"
+          }
+        }
+      ]
+    }
+parameters: []
+headers:
+  - name: Accept
+    value: application/xml
+  - name: Authentication
+    value: Bearer {{token}}
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1667951231507
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

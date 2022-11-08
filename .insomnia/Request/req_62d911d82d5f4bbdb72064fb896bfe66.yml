@@ -1,0 +1,26 @@
+_id: req_62d911d82d5f4bbdb72064fb896bfe66
+type: Request
+parentId: fld_9bbd855535a64cc18bc5de9cb6d30a97
+modified: 1667951230782
+created: 1667951230782
+url: "{{protocol}}://{{host}}:{{port}}/{{baseUrlV2}}/companies/|{{company}}/ove\
+  rtime/requests/{{overtimeRequestId}}"
+name: Overtime Request  (GET)
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+  - name: Authentication
+    value: Bearer {{token}}
+authentication: {}
+metaSortKey: -1667951230782
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

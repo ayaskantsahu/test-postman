@@ -1,0 +1,26 @@
+_id: req_753f34bed7cf4468b5358a38da0fd695
+type: Request
+parentId: fld_bfb89ad80c9244ffb5afb9640b4b04b0
+modified: 1667951231579
+created: 1667951231579
+url: "{{protocol}}://{{host}}:{{port}}/{{baseUrlV2}}/companies/|{{company}}/att\
+  endance"
+name: Attendance (GET)
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/xml
+  - name: Authentication
+    value: Bearer {{token}}
+authentication: {}
+metaSortKey: -1667951231579
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

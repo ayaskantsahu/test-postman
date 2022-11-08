@@ -1,0 +1,26 @@
+_id: req_ffe9ac4294e44be3b2b6ea4a7256a554
+type: Request
+parentId: fld_c114e59dd1cb4d7facf9c759109910de
+modified: 1667951230793
+created: 1667951230793
+url: "{{protocol}}://{{host}}:{{port}}/{{baseUrlV2}}/companies/|{{company}}/loo\
+  kup/shift-premiums"
+name: Shift Premium (Lookup)
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/xml
+  - name: Authentication
+    value: Bearer {{token}}
+authentication: {}
+metaSortKey: -1667951230793
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,26 @@
+_id: req_77a81581d7df4b11a4e673d123284792
+type: Request
+parentId: fld_71c6e2fc324b4f03beaee322e974b4c6
+modified: 1667951231758
+created: 1667951231758
+url: "{{protocol}}://{{host}}:{{port}}/{{baseUrl}}/login-as?company={{company}}\
+  &username={{user}}"
+name: /login-as
+description: login to get token
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/xml
+  - name: Authentication
+    value: Bearer {{token}}
+authentication: {}
+metaSortKey: -1667951231758
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

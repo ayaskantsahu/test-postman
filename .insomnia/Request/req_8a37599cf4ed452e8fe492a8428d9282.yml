@@ -1,0 +1,23 @@
+_id: req_8a37599cf4ed452e8fe492a8428d9282
+type: Request
+parentId: fld_e0083694d3c4457ab9dfe23ca5df3b54
+modified: 1667951231173
+created: 1667951231173
+url: "{{protocol}}://{{host}}:{{port}}/{{baseUrl}}/employee/contacts"
+name: insert-> /employee/contacts
+description: ""
+method: POST
+body: {}
+parameters: []
+headers:
+  - name: Authentication
+    value: bearer {{token}}
+authentication: {}
+metaSortKey: -1667951231173
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

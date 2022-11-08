@@ -1,0 +1,88 @@
+_id: req_5af4c13a581042cf9083c7da39cfe84e
+type: Request
+parentId: fld_ebd467266e7f43ce946bac684c95051f
+modified: 1667951230729
+created: 1667951230729
+url: "{{protocol}}://{{host}}:{{port}}/{{baseUrl}}/report/global/REPORT_PAY_STA\
+  TEMENT_HISTORY"
+name: Run Global Report with Options
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: "{
+
+    \  \"fields\": [
+
+    \        \"EmplEmployeeId\",
+
+    \        \"EmplFirstName\",
+
+    \        \"EmplLastName\",
+
+    \        \"EmplStatusName\",
+
+    \        \"PST_PayStatementType\",
+
+    \        \"PST_Status\",
+
+    \        \"PST_CalcStatus\",
+
+    \        \"PST_PayStatementNumber\",
+
+    \        \"PST_PayStubNote\",
+
+    \        \"PST_PayDate\",
+
+    \        \"PST_Sum_EarningGross_Amount\",
+
+    \        \"PST_Sum_Deduction_Amount\",
+
+    \        \"PST_Sum_Tax_Amount\",
+
+    \        \"PST_Sum_TotalPayment_Amount\",
+
+    \        \"PST_Sum_NumErrors\"
+
+    \  ],
+
+    \  \"selectors\": [
+
+    \     {
+
+    \        \"type\": \"PayrollDate\",
+
+    \        \"name\": \"PayDateSel\",
+
+    \        \"parameters\": {
+
+    \            \"RangeType\": \"10\",
+
+    \            \"PayrollId\": \"-1\"
+
+    \        }
+
+    \    }
+
+    ]
+
+    }
+
+    \ "
+parameters: []
+headers:
+  - name: Accept
+    value: text/csv
+  - name: Authentication
+    value: Bearer {{token}}
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1667951230729
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

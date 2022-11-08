@@ -1,0 +1,38 @@
+_id: req_58ef3de30060486cb1b7c2856f4e52bb
+type: Request
+parentId: fld_9ce02063f17d4b17bc4f55fbdb824d01
+modified: 1667951230748
+created: 1667951230748
+url: "{{protocol}}://{{host}}:{{port}}/{{baseUrlV2}}/companies/{{companyId}}/pa\
+  yrolls?date_from=2017-01-01&date_to=2017-12-31"
+name: Payroll (POST)
+description: Aggregated employee profile
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "name": "Regular create test 01/01/2017",
+      "pay_date": "2017-01-01",
+      "type": {
+        "id": 641
+      },
+      "tax_id": "27-9098800"
+    }
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+  - name: Authentication
+    value: bearer {{token}}
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1667951230748
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

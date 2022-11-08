@@ -1,0 +1,25 @@
+_id: req_f21c8062b4e94b92923197287fc40fe2
+type: Request
+parentId: fld_3eb6ef5ba086410a9adbb50c5f0c8a70
+modified: 1667951230961
+created: 1667951230961
+url: "{{protocol}}://{{host}}:{{port}}/{{baseUrl}}/exports"
+name: /exports
+description: list of avalible data exports
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+  - name: Authentication
+    value: bearer {{token}}
+authentication: {}
+metaSortKey: -1667951230961
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

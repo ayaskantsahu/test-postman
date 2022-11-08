@@ -1,0 +1,25 @@
+_id: req_12d0b4e203a94463b16f25521c7c35b2
+type: Request
+parentId: fld_ebd467266e7f43ce946bac684c95051f
+modified: 1667951230736
+created: 1667951230736
+url: "{{protocol}}://{{host}}:{{port}}/{{baseUrl}}/reports?type=saved"
+name: Get List Of Saved Reports
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+  - name: Authentication
+    value: Bearer {{token}}
+authentication: {}
+metaSortKey: -1667951230736
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

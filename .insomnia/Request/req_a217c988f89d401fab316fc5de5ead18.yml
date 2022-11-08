@@ -1,0 +1,70 @@
+_id: req_a217c988f89d401fab316fc5de5ead18
+type: Request
+parentId: fld_9ce02063f17d4b17bc4f55fbdb824d01
+modified: 1667951230744
+created: 1667951230744
+url: "{{protocol}}://{{host}}:{{port}}/{{baseUrlV2}}/companies/{{companyId}}/pa\
+  yrolls/{{payrollId}}/pay-statements"
+name: Paystatement (POST)
+description: Aggregated employee profile
+method: POST
+body:
+  mimeType: application/json
+  text: "{\r
+
+    \  \"employee\": {\r
+
+    \    \"account_id\": 3588\r
+
+    \  },\r
+
+    \  \"type\": {\r
+
+    \    \"id\": 18432\r
+
+    \  },\r
+
+    \  \"records\": [\r
+
+    \    {\r
+
+    \      \"date_range_from\": \"2017-01-01\",\r
+
+    \      \"date_range_to\": \"2017-01-01\",\r
+
+    \      \"hours\": 40,\r
+
+    \      \"base_rate\": 6.25,\r
+
+    \      \"ee_amount\": 250,\r
+
+    \      \"earning\": {\r
+
+    \        \"name\": \"Regular\",\r
+
+    \        \"code\": \"Regular\"\r
+
+    \      }\r
+
+    \    }\r
+
+    \  ]\r
+
+    }"
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+  - name: Authentication
+    value: bearer {{token}}
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1667951230744
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

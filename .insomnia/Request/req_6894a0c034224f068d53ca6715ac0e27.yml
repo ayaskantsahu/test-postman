@@ -1,0 +1,25 @@
+_id: req_6894a0c034224f068d53ca6715ac0e27
+type: Request
+parentId: fld_bbb8406caee741799598876e66d2ebb1
+modified: 1667951230785
+created: 1667951230785
+url: "{{protocol}}://{{host}}:{{port}}/{{baseUrl}}/employee/todo"
+name: Get Todo
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/xml
+  - name: Authentication
+    value: Bearer {{token}}
+authentication: {}
+metaSortKey: -1667951230785
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

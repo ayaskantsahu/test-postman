@@ -1,0 +1,25 @@
+_id: req_47384024df8344e99b7c195ba9eb55a0
+type: Request
+parentId: fld_ebd467266e7f43ce946bac684c95051f
+modified: 1667951230735
+created: 1667951230735
+url: "{{protocol}}://{{host}}:{{port}}/{{baseUrl}}/report/saved/844673/metadata"
+name: Get Metadata of Saved Report
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+  - name: Authentication
+    value: Bearer {{token}}
+authentication: {}
+metaSortKey: -1667951230735
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,26 @@
+_id: req_71c65d2db0e9465fa5c9de2ea40715bc
+type: Request
+parentId: fld_9ce02063f17d4b17bc4f55fbdb824d01
+modified: 1667951230757
+created: 1667951230757
+url: "{{protocol}}://{{host}}:{{port}}/{{baseUrlV2}}/companies/{{payCompanyId}}\
+  /lookup/payroll-types"
+name: Payroll Type Lookup (GET)
+description: Aggregated employee profile
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+  - name: Authentication
+    value: bearer {{token}}
+authentication: {}
+metaSortKey: -1667951230757
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

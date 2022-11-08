@@ -1,0 +1,26 @@
+_id: req_49fd49452c9d4382aacbebdb8a125e49
+type: Request
+parentId: fld_c114e59dd1cb4d7facf9c759109910de
+modified: 1667951230794
+created: 1667951230794
+url: "{{protocol}}://{{host}}:{{port}}/{{baseUrlV2}}/companies/|{{company}}/loo\
+  kup/overtime/reasons"
+name: Overtime Reasons (LOOKUP)
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+  - name: Authentication
+    value: Bearer {{token}}
+authentication: {}
+metaSortKey: -1667951230794
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
