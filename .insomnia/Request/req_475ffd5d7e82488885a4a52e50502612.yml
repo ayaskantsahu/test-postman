@@ -1,0 +1,25 @@
+_id: req_475ffd5d7e82488885a4a52e50502612
+type: Request
+parentId: fld_6bf7ed4f26374ccf9af917a5213dc882
+modified: 1667869081084
+created: 1667869081084
+url: "{{service-root}}/hr/v2/worker-demographics/meta"
+name: Worker Demographics V2 (Meta)
+description: Request metadata for the Worker Demographics V2 API.
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: TOKEN
+  prefix: ""
+metaSortKey: -1667869081084
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

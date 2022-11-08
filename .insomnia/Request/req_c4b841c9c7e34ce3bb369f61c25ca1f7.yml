@@ -1,0 +1,25 @@
+_id: req_c4b841c9c7e34ce3bb369f61c25ca1f7
+type: Request
+parentId: fld_ff94457b32234c1f87eb2b07185d26e2
+modified: 1667869081074
+created: 1667869081074
+url: "{{service-root}}/events/payroll/v1/worker.pay-distribution.change/meta"
+name: Pay Distributions V1 > Pay Distribution Change (Meta)
+description: Metadata for changing a direct deposit.
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: TOKEN
+  prefix: ""
+metaSortKey: -1667869081074
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

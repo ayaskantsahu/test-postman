@@ -1,0 +1,25 @@
+_id: req_882a552de5af4331aba0f1787b74cf01
+type: Request
+parentId: fld_9db45227ef4249dfa2c998bb51bb9aaa
+modified: 1667869081031
+created: 1667869081031
+url: "{{service-root}}/events/talent/v1/associate.ksaoc.recognition.add/meta"
+name: Recognition V1 > Add (Meta)
+description: ""
+method: POST
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: TOKEN
+  prefix: ""
+metaSortKey: -1667869081031
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

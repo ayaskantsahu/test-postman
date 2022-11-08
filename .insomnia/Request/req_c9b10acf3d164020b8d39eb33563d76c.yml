@@ -1,0 +1,26 @@
+_id: req_c9b10acf3d164020b8d39eb33563d76c
+type: Request
+parentId: fld_cf9bda0008df4fc38052a44c166372fb
+modified: 1667869081111
+created: 1667869081111
+url: "{{service-root}}/core/v1/event-notification-messages/{adp-msg-msgid}"
+name: Event Notification Message V1  (Delete)
+description: Remove an event notification.  Replace {adp-msg-msgid} with the
+  message id returned in the header of the response.
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: TOKEN
+  prefix: ""
+metaSortKey: -1667869081111
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

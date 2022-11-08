@@ -1,0 +1,360 @@
+_id: req_1b3738e3462441a685f05d090b366a78
+type: Request
+parentId: fld_a2d985f8227d402fae25c3e1bceb5f91
+modified: 1667869081060
+created: 1667869081060
+url: "{{service-root}}/events/staffing/v1/applicant.onboard"
+name: Job Applications V1 > Applicant On-board
+description: |
+  Start the new hire wizard for a new hire and allow someone to finish 
+  the hire from within the UI.
+method: POST
+body:
+  mimeType: application/json
+  text: "{\r
+
+    \    \"events\": [{\r
+
+    \        \"data\": {\r
+
+    \            \"transform\": {\r
+
+    \                \"eventReasonCode\": {\r
+
+    \                    \"codeValue\": \"CURR\"\r
+
+    \                },\r
+
+    \                \"jobOffer\": {\r
+
+    \                    \"offerAssignment\": {\r
+
+    \                        \"jobCode\": {\r
+
+    \                            \"codeValue\": \"CFO\"\r
+
+    \                        },\r
+
+    \                        \"workerTypeCode\": {\r
+
+    \                            \"codeValue\": \"F\"\r
+
+    \                        },\r
+
+    \                        \"homeOrganizationalUnits\": [\r
+
+    \                        {\r
+
+    \                            \"nameCode\": {\r
+
+    \                                \"codeValue\": \"123456-123\"\r
+
+    \                            },\r
+
+    \                            \"typeCode\": {\r
+
+    \                                \"codeValue\": \"Cost Number\"\r
+
+    \                            }\r
+
+    \                        }, \r
+
+    \                        {\r
+
+    \                            \"nameCode\": {\r
+
+    \                                \"codeValue\": \"00100\"\r
+
+    \                            },\r
+
+    \                            \"typeCode\": {\r
+
+    \                                \"codeValue\": \"Location\"\r
+
+    \                            }\r
+
+    \                        }, \r
+
+    \                        {\r
+
+    \                            \"nameCode\": {\r
+
+    \                                \"codeValue\": \"192255\"\r
+
+    \                            },\r
+
+    \                            \"typeCode\": {\r
+
+    \                                \"codeValue\": \"Department\"\r
+
+    \                            }\r
+
+    \                        }, \r
+
+    \                        {\r
+
+    \                            \"nameCode\": {\r
+
+    \                                \"codeValue\": \"BU1\"\r
+
+    \                            },\r
+
+    \                            \"typeCode\": {\r
+
+    \                                \"codeValue\": \"Business Unit\"\r
+
+    \                            }\r
+
+    \                        }],\r
+
+    \                        \"payrollGroupCode\": \"AA4\"\r
+
+    \                    },\r
+
+    \                    \"offerTerms\": {\r
+
+    \                        \"expectedStartDate\": \"2016-05-05\",\r
+
+    \                        \"compensation\": {\r
+
+    \                            \"payCycleCode\": {\r
+
+    \                                \"codeValue\": \"W\"\r
+
+    \                            },\r
+
+    \                            \"baseRemuneration\": {\r
+
+    \                                \"payPeriodRateAmount\": {\r
+
+    \                                    \"nameCode\": {\r
+
+    \                                        \"codeValue\": \"S\"\r
+
+    \                                    },\r
+
+    \                                    \"amountValue\": 50\r
+
+    \                                }\r
+
+    \                            },\r
+
+    \                            \"additionalRemunerations\": [{\r
+
+    \                                \"rate\": {\r
+
+    \                                    \"amountValue\": 444.44\r
+
+    \                                }\r
+
+    \                            }]\r
+
+    \                        }\r
+
+    \                    }\r
+
+    \                },\r
+
+    \                \"applicant\": {\r
+
+    \                    \"person\": {\r
+
+    \                        \"genderCode\": {\r
+
+    \                            \"codeValue\": \"M\"\r
+
+    \                        },\r
+
+    \                        \"maritalStatusCode\": {\r
+
+    \                            \"codeValue\": \"M\"\r
+
+    \                        },\r
+
+    \                        \"raceCode\": {\r
+
+    \                            \"identificationMethodCode\": {\r
+
+    \                                \"codeValue\": \"SID\"\r
+
+    \                            },\r
+
+    \                            \"codeValue\": \"1\"\r
+
+    \                        },\r
+
+    \                        \"governmentIDs\": [{\r
+
+    \                            \"nameCode\": {\r
+
+    \                                \"codeValue\": \"SSN\"\r
+
+    \                            },\r
+
+    \                            \"idValue\": \"191151921\"\r
+
+    \                        }],\r
+
+    \                        \"socialInsurancePrograms\": [{\r
+
+    \                            \"nameCode\": {\r
+
+    \                                \"codeValue\": \"Medicare\"\r
+
+    \                            },\r
+
+    \                            \"coveredIndicator\": true\r
+
+    \                        }, {\r
+
+    \                            \"nameCode\": {\r
+
+    \                                \"codeValue\": \"Medicaid\"\r
+
+    \                            },\r
+
+    \                            \"coveredIndicator\": true\r
+
+    \                        }],\r
+
+    \                        \"legalName\": {\r
+
+    \                            \"preferredSalutations\": [{\r
+
+    \                                \"salutationCode\": {\r
+
+    \                                    \"codeValue\": \"Dr.\"\r
+
+    \                                }\r
+
+    \                            }],\r
+
+    \                            \"generationAffixCode\": {\r
+
+    \                                \"codeValue\": \"V\"\r
+
+    \                            },\r
+
+    \                            \"qualificationAffixCode\": {\r
+
+    \                                \"codeValue\": \"PA\"\r
+
+    \                            },\r
+
+    \                            \"givenName\": \"Amy\",\r
+
+    \                            \"middleName\": \"A\",\r
+
+    \                            \"familyName1\": \"Foobar\",\r
+
+    \                            \"nickName\": \"Ames\"\r
+
+    \                        },\r
+
+    \                        \"communication\": {\r
+
+    \                            \"landlines\": [{\r
+
+    \                                \"nameCode\": {\r
+
+    \                                    \"codeValue\": \"HomePhone\"\r
+
+    \                                },\r
+
+    \                                \"areaDialing\": \"732\",\r
+
+    \                                \"dialNumber\": \"5551234\"\r
+
+    \                            }],\r
+
+    \                            \"mobiles\": [{\r
+
+    \                                \"nameCode\": {\r
+
+    \                                    \"codeValue\": \"PersonalCell\"\r
+
+    \                                },\r
+
+    \                                \"areaDialing\": \"732\",\r
+
+    \                                \"dialNumber\": \"5551234\"\r
+
+    \                            }],\r
+
+    \                            \"emails\": [{\r
+
+    \                                \"emailUri\": \"john.smith@adp.com\"\r
+
+    \                            }]\r
+
+    \                        },\r
+
+    \                        \"birthDate\": \"1970-01-01\",\r
+
+    \                        \"legalAddress\": {\r
+
+    \                            \"nameCode\": {\r
+
+    \                                \"codeValue\": \"PersonalAddress1\"\r
+
+    \                            },\r
+
+    \                            \"lineOne\": \"3295RiverDr\",\r
+
+    \                            \"lineTwo\": \"TowerB\",\r
+
+    \                            \"lineThree\": \"4thFloor\",\r
+
+    \                            \"cityName\": \"Alpharetta\",\r
+
+    \                            \"countrySubdivisionLevel1\": {\r
+
+    \                                \"subdivisionType\":
+    \"StateTerritory\",\r
+
+    \                                \"codeValue\": \"GA\"\r
+
+    \                            },\r
+
+    \                            \"countrySubdivisionLevel2\": {\r
+
+    \                                \"subdivisionType\": \"County\",\r
+
+    \                                \"codeValue\": \"Fulton\"\r
+
+    \                            },\r
+
+    \                            \"countryCode\": \"US\",\r
+
+    \                            \"postalCode\": \"30067\"\r
+
+    \                        }\r
+
+    \                    }\r
+
+    \                }\r
+
+    \            }\r
+
+    \        }\r
+
+    \    }]\r
+
+    }"
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  disabled: false
+  token: TOKEN
+  prefix: ""
+metaSortKey: -1667869081060
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

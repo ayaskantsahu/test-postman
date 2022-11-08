@@ -1,0 +1,21 @@
+_id: req_dc79a3422fd94ba3ba4e0f14a67d4e62
+type: Request
+parentId: wrk_45fba0d7f5d044579cce1c08b92c142f
+modified: 1667847391486
+created: 1667847381482
+url: https://helloworld.com
+name: New Request
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1667847381482
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

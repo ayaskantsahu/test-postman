@@ -1,0 +1,26 @@
+_id: req_53718bbfc8bd4573a9b52c9bc0aa5fdd
+type: Request
+parentId: fld_6bf7ed4f26374ccf9af917a5213dc882
+modified: 1667869081082
+created: 1667869081082
+url: "{{service-root}}/hr/v2/worker-demographics/{{anthony-albright-aoid}}?prev\
+  entCache=TIMESTAMP"
+name: Worker Demographics V2 (Single by AOID)
+description: Request demographic data for a single worker given their AOID.
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: TOKEN
+  prefix: ""
+metaSortKey: -1667869081082
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

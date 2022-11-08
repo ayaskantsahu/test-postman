@@ -1,0 +1,25 @@
+_id: req_0485f43d80df407aa26dd90933193327
+type: Request
+parentId: fld_6bf7ed4f26374ccf9af917a5213dc882
+modified: 1667869081103
+created: 1667869081103
+url: "{{service-root}}/events/hr/v1/worker.personal-communication.email.add/meta"
+name: Worker V1 > Personal Communication Email > Add (Meta)
+description: Metadata for a request to add a worker email.
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: TOKEN
+  prefix: ""
+metaSortKey: -1667869081103
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

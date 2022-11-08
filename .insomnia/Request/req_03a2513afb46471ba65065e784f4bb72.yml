@@ -1,0 +1,26 @@
+_id: req_03a2513afb46471ba65065e784f4bb72
+type: Request
+parentId: fld_6bf7ed4f26374ccf9af917a5213dc882
+modified: 1667869081083
+created: 1667869081083
+url: "{{service-root}}/hr/v2/worker-demographics?$top=5&preventCache=TIMESTAMP"
+name: Worker Demographics V2 (List with Top 5 and Prevent Cache)
+description: Request demographic data for a collection of the top 5 workers
+  using a URI cache-buster.
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: TOKEN
+  prefix: ""
+metaSortKey: -1667869081083
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

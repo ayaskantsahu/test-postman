@@ -1,0 +1,25 @@
+_id: req_0d02a3b6dac146c884ea59aabeeb634a
+type: Request
+parentId: fld_a2d985f8227d402fae25c3e1bceb5f91
+modified: 1667869081056
+created: 1667869081056
+url: "{{service-root}}/staffing/v1/job-requisitions/{requisition-id}"
+name: Job Requisitions V1 (Single by Item ID)
+description: GET single job requisition based on the itemID of the requisition.
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: TOKEN
+  prefix: ""
+metaSortKey: -1667869081056
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

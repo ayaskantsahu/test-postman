@@ -1,0 +1,28 @@
+_id: req_4ac9faaf7506435fbed757462c6fb784
+type: Request
+parentId: fld_cf9bda0008df4fc38052a44c166372fb
+modified: 1667869081110
+created: 1667869081110
+url: "{{service-root}}/codelists/talent/v3/worker-ksaoc-management/{list-name}/\
+  WFN/1"
+name: Table V1 > Codelists - Personal Information Group (For List Name)
+description: Exposes WFN validation table data for the **Personal Information**
+  tables (Learning Institution, Education Major/Minor, Degree/Achievement
+  Level).  Replace `{list-name}` with a valid value from the data dictionary.
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: TOKEN
+  prefix: ""
+metaSortKey: -1667869081110
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

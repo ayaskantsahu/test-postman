@@ -1,0 +1,26 @@
+_id: req_51347b49c0b341d7a5b44460dbd221cd
+type: Request
+parentId: fld_9db45227ef4249dfa2c998bb51bb9aaa
+modified: 1667869081044
+created: 1667869081044
+url: "{{service-root}}/events/talent/v1/associate.ksaoc.educational-degree.remo\
+  ve/meta"
+name: Educational Degree V1 > Remove (Meta)
+description: ""
+method: POST
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: TOKEN
+  prefix: ""
+metaSortKey: -1667869081044
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

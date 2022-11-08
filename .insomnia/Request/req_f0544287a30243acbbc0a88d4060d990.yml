@@ -1,0 +1,29 @@
+_id: req_f0544287a30243acbbc0a88d4060d990
+type: Request
+parentId: fld_ff94457b32234c1f87eb2b07185d26e2
+modified: 1667869081067
+created: 1667869081067
+url: "{{service-root}}/payroll/v1/payroll-output?$filter=payrollScheduleReferen\
+  ce/payrollYear eq 2018 and payrollScheduleReference/payrollWeekNumber eq 10
+  and payrollGroupCode/codeValue eq %26Y%26 and payrollRegionCode/codeValue eq
+  BALT&$count=true&use-cache=false"
+name: Payroll Outputs V1 (List for Region / Company Code / Year / Week)
+description: Fetches a list of payroll outputs given a Region Code, Company
+  Code, Year and Week.
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: TOKEN
+  prefix: ""
+metaSortKey: -1667869081067
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

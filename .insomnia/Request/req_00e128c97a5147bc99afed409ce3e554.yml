@@ -1,0 +1,25 @@
+_id: req_00e128c97a5147bc99afed409ce3e554
+type: Request
+parentId: fld_6bf7ed4f26374ccf9af917a5213dc882
+modified: 1667869081093
+created: 1667869081093
+url: "{{service-root}}/events/hr/v1/worker.race.change/meta"
+name: Worker V1 > Race Change  (Meta)
+description: Metadata for changing the race of a worker
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: TOKEN
+  prefix: ""
+metaSortKey: -1667869081093
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

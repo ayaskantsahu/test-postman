@@ -1,0 +1,25 @@
+_id: req_59a1664fddc34d30b534518db7836fa8
+type: Request
+parentId: fld_9db45227ef4249dfa2c998bb51bb9aaa
+modified: 1667869081046
+created: 1667869081046
+url: "{{service-root}}/events/talent/v1/associate.ksaoc.educational-degree.add/meta"
+name: Educational Degree V1 > Add (Meta)
+description: ""
+method: POST
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: TOKEN
+  prefix: ""
+metaSortKey: -1667869081046
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

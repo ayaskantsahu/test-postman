@@ -1,0 +1,30 @@
+_id: req_beb52919d1e4491ba9285e6cc0b04bd3
+type: Request
+parentId: fld_6bf7ed4f26374ccf9af917a5213dc882
+modified: 1667869081088
+created: 1667869081088
+url: "{{service-root}}/hr/v2/workers?$filter=workers/workAssignments/homeOrgani\
+  zationalUnits/typeCode/codeValue eq 'Department' and
+  workers/workAssignments/homeOrganizationalUnits/nameCode/codeValue eq
+  '001000'"
+name: Worker V2 (List Filtered by Department)
+description: Request a collection of workers filtered by department.
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/json;masked=false
+authentication:
+  type: bearer
+  disabled: false
+  token: TOKEN
+  prefix: ""
+metaSortKey: -1667869081088
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

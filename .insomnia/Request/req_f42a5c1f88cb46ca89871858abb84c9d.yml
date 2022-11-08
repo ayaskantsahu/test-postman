@@ -1,0 +1,30 @@
+_id: req_f42a5c1f88cb46ca89871858abb84c9d
+type: Request
+parentId: fld_6bf7ed4f26374ccf9af917a5213dc882
+modified: 1667869081080
+created: 1667869081080
+url: "{{service-root}}/hr/v2/worker-demographics?$filter=workers/workAssignment\
+  s/reportsTo/positionID eq 'AA4000345'"
+name: Worker Demographics V2 (List Filtered by Reports To Position ID)
+description: >-
+  Request demographic data for a collection of workers filtered by the Reports
+  To
+
+  Position ID.
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: TOKEN
+  prefix: ""
+metaSortKey: -1667869081080
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,35 @@
+_id: req_bb497328a7fb4fa5ac387ed9b7bc9f4a
+type: Request
+parentId: fld_009d91db16d74dbc930f3fa4a6fb6fa2
+modified: 1667869081020
+created: 1667869081020
+url: "{{security-token-service}}/auth/oauth/v2/token"
+name: Token Request (Request Body)
+description: A request to get an OAuth bearer token for our demo ADP Workforce
+  Now by adding an adding the grant type and credentials to the request body.
+method: POST
+body:
+  params:
+    - value: client_credentials
+      name: grant_type
+      disabled: true
+    - value: "{{client-id}}"
+      name: client_id
+      disabled: true
+    - value: "{{client-secret}}"
+      name: client_secret
+      disabled: true
+  mimeType: application/x-www-form-urlencoded
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/x-www-form-urlencoded
+authentication: {}
+metaSortKey: -1667869081020
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

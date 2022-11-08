@@ -1,0 +1,25 @@
+_id: req_58d5152ad4484acf90b8d09422635728
+type: Request
+parentId: fld_9db45227ef4249dfa2c998bb51bb9aaa
+modified: 1667869081038
+created: 1667869081038
+url: "{{service-root}}/events/talent/v1/associate.ksaoc.language.remove/meta"
+name: Language V1 > Remove (Meta)
+description: ""
+method: POST
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: TOKEN
+  prefix: ""
+metaSortKey: -1667869081038
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

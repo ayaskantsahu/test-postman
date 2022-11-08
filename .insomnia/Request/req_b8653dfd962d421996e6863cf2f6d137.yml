@@ -1,0 +1,26 @@
+_id: req_b8653dfd962d421996e6863cf2f6d137
+type: Request
+parentId: fld_6bf7ed4f26374ccf9af917a5213dc882
+modified: 1667869081079
+created: 1667869081079
+url: "{{service-root}}/hr/v2/worker-demographics?$filter=workers/workAssignment\
+  s/assignmentStatus/statusCode/codeValue eq 'T'"
+name: Worker Demographics V2 (List Filtered by Status)
+description: Request demographic data for a collection of workers filtered by status.
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: TOKEN
+  prefix: ""
+metaSortKey: -1667869081079
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

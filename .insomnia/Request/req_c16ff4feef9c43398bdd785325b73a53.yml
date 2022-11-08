@@ -1,0 +1,28 @@
+_id: req_c16ff4feef9c43398bdd785325b73a53
+type: Request
+parentId: fld_6bf7ed4f26374ccf9af917a5213dc882
+modified: 1667869081086
+created: 1667869081086
+url: "{{service-root}}/hr/v2/workers?$filter=workers/workAssignments/assignment\
+  Status/statusCode/codeValue eq 'T'"
+name: Worker V2 (List Filtered by Status)
+description: Request a collection of workers filtered by status.
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/json;masked=false
+authentication:
+  type: bearer
+  disabled: false
+  token: TOKEN
+  prefix: ""
+metaSortKey: -1667869081086
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

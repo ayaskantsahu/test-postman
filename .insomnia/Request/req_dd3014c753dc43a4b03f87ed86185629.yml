@@ -1,0 +1,26 @@
+_id: req_dd3014c753dc43a4b03f87ed86185629
+type: Request
+parentId: fld_ff94457b32234c1f87eb2b07185d26e2
+modified: 1667869081072
+created: 1667869081072
+url: "{{service-root}}/events/payroll/v2/worker-general-deduction-instruction.c\
+  hange/meta"
+name: Payroll Instructions V1 > Gen. Ded. Instr. Change (Meta)
+description: Metadata for changing a scheduled deduction.
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: TOKEN
+  prefix: ""
+metaSortKey: -1667869081072
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

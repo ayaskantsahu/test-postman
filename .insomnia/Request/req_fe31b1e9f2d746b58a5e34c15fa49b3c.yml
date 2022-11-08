@@ -1,0 +1,27 @@
+_id: req_fe31b1e9f2d746b58a5e34c15fa49b3c
+type: Request
+parentId: fld_6bf7ed4f26374ccf9af917a5213dc882
+modified: 1667869081090
+created: 1667869081090
+url: "{{service-root}}/hr/v2/workers/meta"
+name: Worker V2 (Meta)
+description: Request metadata for the Workers V2 API.
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/json;masked=false
+authentication:
+  type: bearer
+  disabled: false
+  token: TOKEN
+  prefix: ""
+metaSortKey: -1667869081090
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

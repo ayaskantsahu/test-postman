@@ -1,0 +1,28 @@
+_id: req_d510bb514fa1459181e83d5b550699dd
+type: Request
+parentId: fld_6bf7ed4f26374ccf9af917a5213dc882
+modified: 1667869081081
+created: 1667869081081
+url: "{{service-root}}/hr/v2/worker-demographics?$filter=workers/workAssignment\
+  s/homeOrganizationalUnits/typeCode/codeValue eq 'Department' and
+  workers/workAssignments/homeOrganizationalUnits/nameCode/codeValue eq
+  '001000'"
+name: Worker Demographics V2 (List Filtered by Department)
+description: Request demographic data for a collection of workers filtered by department.
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: TOKEN
+  prefix: ""
+metaSortKey: -1667869081081
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

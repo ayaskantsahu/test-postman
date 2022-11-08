@@ -1,0 +1,27 @@
+_id: req_d892e001a6a7485f8080d71b92a92a7a
+type: Request
+parentId: fld_9db45227ef4249dfa2c998bb51bb9aaa
+modified: 1667869081028
+created: 1667869081028
+url: "{{service-root}}/talent/v2/associates/{{anthony-albright-aoid}}/associate\
+  -recognitions"
+name: Recognition V2 (List for Worker by AOID)
+description: |
+  Request the recognitions for a single worker.
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: TOKEN
+  prefix: ""
+metaSortKey: -1667869081028
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

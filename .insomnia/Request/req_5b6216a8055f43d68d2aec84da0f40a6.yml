@@ -1,0 +1,27 @@
+_id: req_5b6216a8055f43d68d2aec84da0f40a6
+type: Request
+parentId: fld_9db45227ef4249dfa2c998bb51bb9aaa
+modified: 1667869081037
+created: 1667869081037
+url: "{{service-root}}/talent/v2/associates/{{anthony-albright-aoid}}/associate\
+  -languages"
+name: Language V2 (List for Worker by AOID)
+description: |
+  Request the languanges for a single worker.
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: TOKEN
+  prefix: ""
+metaSortKey: -1667869081037
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

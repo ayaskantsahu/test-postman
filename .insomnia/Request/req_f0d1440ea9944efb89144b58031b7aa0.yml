@@ -1,0 +1,27 @@
+_id: req_f0d1440ea9944efb89144b58031b7aa0
+type: Request
+parentId: fld_6bf7ed4f26374ccf9af917a5213dc882
+modified: 1667869081085
+created: 1667869081085
+url: "{{service-root}}/core/v1/operations/workerInformationManagement/hr.v2.wor\
+  kers/{key}?$select=processingStatus"
+name: Worker V2 (Check Async Request Status)
+description: Check the status of an async request to the Worker API given the
+  key returned as part of the original asyn response's "link" header.
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: TOKEN
+  prefix: ""
+metaSortKey: -1667869081085
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

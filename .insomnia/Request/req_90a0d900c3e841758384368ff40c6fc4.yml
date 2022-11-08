@@ -1,0 +1,25 @@
+_id: req_90a0d900c3e841758384368ff40c6fc4
+type: Request
+parentId: fld_ff94457b32234c1f87eb2b07185d26e2
+modified: 1667869081077
+created: 1667869081077
+url: "{{service-root}}/events/payroll/v1/pay-data-input.modify/meta"
+name: Pay Data Input V1 > Modify (Meta)
+description: Metadata for a request to create a new paydata batch.
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: TOKEN
+  prefix: ""
+metaSortKey: -1667869081077
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

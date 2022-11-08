@@ -1,0 +1,25 @@
+_id: req_f2e95f4d0be54aa29d715d07724fb3c0
+type: Request
+parentId: fld_a2d985f8227d402fae25c3e1bceb5f91
+modified: 1667869081063
+created: 1667869081063
+url: "{{service-root}}/staffing/v1/job-applications/{application-id}"
+name: Job Applications V1 (Single by Item ID)
+description: Gets a job application given an itemID.
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: TOKEN
+  prefix: ""
+metaSortKey: -1667869081063
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,30 @@
+_id: req_c4f104d5619c4a0ab73c7d7638dff43f
+type: Request
+parentId: fld_6bf7ed4f26374ccf9af917a5213dc882
+modified: 1667869081087
+created: 1667869081087
+url: "{{service-root}}/hr/v2/workers?$filter=workers/workAssignments/reportsTo/\
+  positionID eq 'AA4000345'"
+name: Worker V2 (List Filtered by Reports To Position ID)
+description: |-
+  Request a collection of workers filtered by the Reports To
+  Position ID.
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/json;masked=false
+authentication:
+  type: bearer
+  disabled: false
+  token: TOKEN
+  prefix: ""
+metaSortKey: -1667869081087
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

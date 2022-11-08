@@ -1,0 +1,26 @@
+_id: req_fc1ae3cf8d6542229a10c3f36070d2cc
+type: Request
+parentId: fld_ff94457b32234c1f87eb2b07185d26e2
+modified: 1667869081070
+created: 1667869081070
+url: "{{service-root}}/events/payroll/v2/worker-general-deduction-instruction.s\
+  tart/meta"
+name: Payroll Instructions V1 > Gen. Ded. Instr. Start (Meta)
+description: Metadata for starting a scheduled deduction.
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: TOKEN
+  prefix: ""
+metaSortKey: -1667869081070
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,27 @@
+_id: req_85e053c3805a4e5abefd70cc4948cd47
+type: Request
+parentId: fld_cf9bda0008df4fc38052a44c166372fb
+modified: 1667869081112
+created: 1667869081112
+url: "{{service-root}}/core/v1/event-notification-messages"
+name: Event Notification Message V1 (Latest)
+description: Request the latest event notificaiton message.
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: roleCode
+    value: practitioner
+authentication:
+  type: bearer
+  disabled: false
+  token: TOKEN
+  prefix: ""
+metaSortKey: -1667869081112
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

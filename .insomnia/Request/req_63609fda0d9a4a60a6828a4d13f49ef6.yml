@@ -1,0 +1,25 @@
+_id: req_63609fda0d9a4a60a6828a4d13f49ef6
+type: Request
+parentId: fld_6bf7ed4f26374ccf9af917a5213dc882
+modified: 1667869081108
+created: 1667869081108
+url: "{{service-root}}/hr/v2/associates/{{anthony-albright-aoid}}/personal-contacts"
+name: Personal Contact V2 (List for Worker by AOID)
+description: Request the personal contacts for a single worker given their AOID.
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: TOKEN
+  prefix: ""
+metaSortKey: -1667869081108
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

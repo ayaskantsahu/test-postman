@@ -1,0 +1,27 @@
+_id: req_9f75be8d105545df98204d996a85e530
+type: Request
+parentId: fld_009d91db16d74dbc930f3fa4a6fb6fa2
+modified: 1667869081022
+created: 1667869081022
+url: "{{security-token-service}}/auth/oauth/v2/token?grant_type=client_credentials"
+name: Token Request (Authorization Header)
+description: A request to get an OAuth bearer token for our demo ADP Workforce
+  Now by adding an Authorization header containing the base-64 encoded
+  credentials.
+method: POST
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: basic
+  disabled: false
+  username: null
+  password: null
+metaSortKey: -1667869081022
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

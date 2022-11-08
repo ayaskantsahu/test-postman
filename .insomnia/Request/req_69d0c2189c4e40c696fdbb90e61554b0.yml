@@ -1,0 +1,98 @@
+_id: req_69d0c2189c4e40c696fdbb90e61554b0
+type: Request
+parentId: fld_ff94457b32234c1f87eb2b07185d26e2
+modified: 1667869081071
+created: 1667869081071
+url: "{{service-root}}/events/payroll/v2/worker-general-deduction-instruction.c\
+  hange"
+name: Payroll Instructions V1 > Gen. Ded. Instr. Change
+description: Change a scheduled deduction.
+method: POST
+body:
+  mimeType: application/json
+  text: "{\r
+
+    \    \"events\": [{\r
+
+    \        \"data\": {\r
+
+    \            \"eventContext\": {\r
+
+    \                \"worker\": {\r
+
+    \                    \"associateOID\": \"G3Y43A1SCMYJZD4B\"\r
+
+    \                },\r
+
+    \                \"payrollInstruction\": {\r
+
+    \                    \"payrollGroupCode\": {\r
+
+    \                        \"codeValue\": \"AA4\"\r
+
+    \                    },\r
+
+    \                    \"payrollFileNumber\": \"5685\",\r
+
+    \                    \"payrollAgreementID\": \"CC1_1479572135\",\r
+
+    \                    \"itemID\": \"1481671640_7471\",\r
+
+    \                    \"generalDeductionInstruction\": {\r
+
+    \                        \"deductionCode\": {\r
+
+    \                            \"codeValue\": \"A\"\r
+
+    \                        }\r
+
+    \                    }\r
+
+    \                }\r
+
+    \            },\r
+
+    \            \"transform\": {\r
+
+    \                \"effectiveDateTime\": \"2016-08-01\",\r
+
+    \                \"payrollInstruction\": {\r
+
+    \                    \"generalDeductionInstruction\": {\r
+
+    \                        \"deductionRate\": {\r
+
+    \                            \"rateValue\": 99,\r
+
+    \                            \"currencyCode\": \"USD\"\r
+
+    \                        }\r
+
+    \                    }\r
+
+    \                }\r
+
+    \            }\r
+
+    \        }\r
+
+    \    }]\r
+
+    }\r\n"
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  disabled: false
+  token: TOKEN
+  prefix: ""
+metaSortKey: -1667869081071
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

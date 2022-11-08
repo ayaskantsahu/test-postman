@@ -1,0 +1,26 @@
+_id: req_76eda865a0934744ac58c57a6da9124b
+type: Request
+parentId: fld_6bf7ed4f26374ccf9af917a5213dc882
+modified: 1667869081106
+created: 1667869081106
+url: "{{service-root}}/events/hr/v1/worker.work-assignment.additional-remunerat\
+  ion.add/meta"
+name: Worker V1 > Additional Remuneration Add (Meta)
+description: Metadata for removing an additional pay rate for a worker.
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: TOKEN
+  prefix: ""
+metaSortKey: -1667869081106
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

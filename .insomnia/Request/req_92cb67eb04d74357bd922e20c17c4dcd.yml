@@ -1,0 +1,25 @@
+_id: req_92cb67eb04d74357bd922e20c17c4dcd
+type: Request
+parentId: fld_9db45227ef4249dfa2c998bb51bb9aaa
+modified: 1667869081035
+created: 1667869081035
+url: "{{service-root}}/events/talent/v1/associate.ksaoc.membership.add/meta"
+name: Membership V1 > Add (Meta)
+description: ""
+method: POST
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: TOKEN
+  prefix: ""
+metaSortKey: -1667869081035
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

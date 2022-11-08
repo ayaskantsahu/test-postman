@@ -1,0 +1,26 @@
+_id: req_ecfe1f0c3ab84a6f945354a4ec14d904
+type: Request
+parentId: fld_ff94457b32234c1f87eb2b07185d26e2
+modified: 1667869081068
+created: 1667869081068
+url: "{{service-root}}/events/payroll/v2/worker-general-deduction-instruction.s\
+  top/meta"
+name: Payroll Instructions V1 > Gen. Ded. Instr. Stop (Meta)
+description: Metadata for stopping a scheduled deduction.
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: TOKEN
+  prefix: ""
+metaSortKey: -1667869081068
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

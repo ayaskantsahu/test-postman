@@ -1,0 +1,25 @@
+_id: req_0c3031b8d3314c86b30598d568a91c92
+type: Request
+parentId: fld_9db45227ef4249dfa2c998bb51bb9aaa
+modified: 1667869081039
+created: 1667869081039
+url: "{{service-root}}/events/talent/v1/associate.ksaoc.language.change/meta"
+name: Language V1 > Change (Meta)
+description: ""
+method: POST
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: TOKEN
+  prefix: ""
+metaSortKey: -1667869081039
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

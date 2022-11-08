@@ -1,0 +1,28 @@
+_id: req_b32f866c8816498794c60c9a59807b06
+type: Request
+parentId: fld_6bf7ed4f26374ccf9af917a5213dc882
+modified: 1667869081089
+created: 1667869081089
+url: "{{service-root}}/hr/v2/workers/{{anthony-albright-aoid}}?preventCache=TIM\
+  ESTAMP"
+name: Worker V2 (Single by AOID)
+description: Request a single worker given their AOID.
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/json;masked=false
+authentication:
+  type: bearer
+  disabled: false
+  token: TOKEN
+  prefix: ""
+metaSortKey: -1667869081089
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

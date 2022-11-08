@@ -1,0 +1,25 @@
+_id: req_5a8f75f07dfa4d26838a91be79be1034
+type: Request
+parentId: fld_6bf7ed4f26374ccf9af917a5213dc882
+modified: 1667869081107
+created: 1667869081107
+url: "{{service-root}}/hr/v1/organization-departments"
+name: Organization Departments V1
+description: Request a collection of departments.
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: TOKEN
+  prefix: ""
+metaSortKey: -1667869081107
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

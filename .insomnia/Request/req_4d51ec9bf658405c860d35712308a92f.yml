@@ -1,0 +1,197 @@
+_id: req_4d51ec9bf658405c860d35712308a92f
+type: Request
+parentId: fld_ff94457b32234c1f87eb2b07185d26e2
+modified: 1667869081076
+created: 1667869081076
+url: "{{service-root}}/events/payroll/v1/pay-data-input.modify"
+name: Pay Data Input V1 > Modify
+description: |
+  Create a new paydata batch.
+method: POST
+body:
+  mimeType: application/json
+  text: "{\r
+
+    \    \"events\": [{\r
+
+    \        \"data\": {\r
+
+    \            \"eventContext\": {\r
+
+    \                \"payrollGroupCode\": {\r
+
+    \                    \"codeValue\": \"AA4\"\r
+
+    \                },\r
+
+    \                \"payrollProcessingJobID\": \"SWD_2017_03_09\"\r
+
+    \            },\r
+
+    \            \"transform\": {\r
+
+    \                \"payDataInput\": {\r
+
+    \                    \"payeePayInputs\": [{\r
+
+    \                            \"associateOID\": \"G37FPGW57N71G26K\",\r
+
+    \                            \"payNumber\": \"1\",\r
+
+    \                            \"payrollProfilePayInputs\": [{\r
+
+    \                                \"payrollFileNumber\": \"001110\",\r
+
+    \                                \"payInputs\": [{\r
+
+    \                                    \"earningInputs\": [{\r
+
+    \                                        \"earningCode\": {\r
+
+    \                                            \"codeValue\": \"R\"\r
+
+    \                                        },\r
+
+    \                                        \"rate\": {\r
+
+    \                                            \"rateValue\": \"44.50\"\r
+
+    \                                        },\r
+
+    \                                        \"numberOfHours\": 40\r
+
+    \                                    }, {\r
+
+    \                                        \"earningCode\": {\r
+
+    \                                            \"codeValue\": \"O\"\r
+
+    \                                        },\r
+
+    \                                        \"numberOfHours\": 4\r
+
+    \                                    }],\r
+
+    \                                    \"deductionInputs\": [{\r
+
+    \                                        \"deductionCode\": {\r
+
+    \                                            \"codeValue\": \"A\"\r
+
+    \                                        },\r
+
+    \                                        \"deductionRate\": {\r
+
+    \                                            \"rateValue\": 10.50,\r
+
+    \                                            \"currencyCode\": \"USD\"\r
+
+    \                                        }\r
+
+    \                                    }],\r
+
+    \                                    \"reimbursementInputs\": [{\r
+
+    \                                    \t\"reimbursementCode\": {\r
+
+    \                                    \t\t\"codeValue\": \"B\"\r
+
+    \                                    \t},\r
+
+    \                                    \t\"reimbursementAmount\":{\r
+
+    \                                    \t\t\"amountValue\": 25.00,\r
+
+    \                                    \t\t\"currencyCode\": \"USD\"\r
+
+    \                                    \t}\r
+
+    \                                    }]\r
+
+    \                                }]\r
+
+    \                            }]\r
+
+    \                        }, {\r
+
+    \                            \"associateOID\": \"G3JV6MKPVRHR86CW\",\r
+
+    \                            \"payNumber\": \"1\",\r
+
+    \                            \"payrollProfilePayInputs\": [{\r
+
+    \                                \"payrollFileNumber\": \"001150\",\r
+
+    \                                \"payInputs\": [{\r
+
+    \                                    \"earningInputs\": [{\r
+
+    \                                            \"earningCode\": {\r
+
+    \                                                \"codeValue\": \"R\"\r
+
+    \                                            },\r
+
+    \r
+
+    \                                            \"rate\": {\r
+
+    \                                                \"rateValue\":
+    \"15.00\"\r
+
+    \                                            },\r
+
+    \                                            \"numberOfHours\": 40\r
+
+    \                                        }, {\r
+
+    \                                            \"earningCode\": {\r
+
+    \                                                \"codeValue\": \"O\"\r
+
+    \                                            },\r
+
+    \                                            \"numberOfHours\": 16\r
+
+    \                                        }\r
+
+    \r
+
+    \                                    ]\r
+
+    \                                }]\r
+
+    \                            }]\r
+
+    \                        }\r
+
+    \r
+
+    \                    ]\r
+
+    \                }\r
+
+    \            }\r
+
+    \        }\r
+
+    \    }]\r
+
+    }"
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  disabled: false
+  token: TOKEN
+  prefix: ""
+metaSortKey: -1667869081076
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,25 @@
+_id: req_18d06afe368a4189afe5724d0bd44cd1
+type: Request
+parentId: fld_6bf7ed4f26374ccf9af917a5213dc882
+modified: 1667869081103
+created: 1667869081103
+url: "{{service-root}}/events/hr/v1/worker.birth-name.change/meta"
+name: Worker V1 > Birth Name Change  (Meta)
+description: Metadata for changing the birth name of a worker
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: TOKEN
+  prefix: ""
+metaSortKey: -1667869081103
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

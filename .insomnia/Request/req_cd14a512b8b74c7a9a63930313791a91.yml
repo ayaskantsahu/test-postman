@@ -1,0 +1,27 @@
+_id: req_cd14a512b8b74c7a9a63930313791a91
+type: Request
+parentId: fld_9db45227ef4249dfa2c998bb51bb9aaa
+modified: 1667869081043
+created: 1667869081043
+url: "{{service-root}}/talent/v2/associates/{{anthony-albright-aoid}}/associate\
+  -educational-degrees"
+name: Educational Degree V2 (List for Worker by AOID)
+description: |
+  Request the educational degrees for a single worker.
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: TOKEN
+  prefix: ""
+metaSortKey: -1667869081043
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

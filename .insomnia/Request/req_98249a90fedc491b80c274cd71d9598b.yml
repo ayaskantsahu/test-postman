@@ -1,0 +1,64 @@
+_id: req_98249a90fedc491b80c274cd71d9598b
+type: Request
+parentId: fld_6bf7ed4f26374ccf9af917a5213dc882
+modified: 1667869081104
+created: 1667869081104
+url: "{{service-root}}/events/hr/v1/worker.work-assignment.additional-remunerat\
+  ion.remove"
+name: Worker V1 > Additional Remuneration Remove
+description: Remove an additional pay rate for a worker.
+method: POST
+body:
+  mimeType: application/json
+  text: "{\r
+
+    \  \"events\" : [ \r
+
+    \    {\r
+
+    \    \"data\" : {\r
+
+    \      \"eventContext\" : {\r
+
+    \        \"worker\" : {\r
+
+    \          \"associateOID\" : \"G37FPGW57N71G26K\",\r
+
+    \          \"workAssignment\" : {\r
+
+    \              \"itemID\" : \"71674_1129\",\r
+
+    \              \"additionalRemuneration\": {\r
+
+    \                  \"itemID\" : \"Rate 2\"\r
+
+    \              }\r
+
+    \          }\r
+
+    \        }\r
+
+    \      }\r
+
+    \    }\r
+
+    \  } ]\r
+
+    }"
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  disabled: false
+  token: TOKEN
+  prefix: ""
+metaSortKey: -1667869081104
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

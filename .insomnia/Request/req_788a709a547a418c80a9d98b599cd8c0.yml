@@ -1,0 +1,29 @@
+_id: req_788a709a547a418c80a9d98b599cd8c0
+type: Request
+parentId: fld_ff94457b32234c1f87eb2b07185d26e2
+modified: 1667869081073
+created: 1667869081073
+url: "{{service-root}}/payroll/v1/workers/{{anthony-albright-aoid}}/payroll-ins\
+  tructions"
+name: Payroll Instructions V1 (List for  Worker by AOID)
+description: >+
+  Returns scheduled deductions and garnishments for a single worker (Pay >
+  Deductions and Pay > Liens in WFN)
+
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: TOKEN
+  prefix: ""
+metaSortKey: -1667869081073
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

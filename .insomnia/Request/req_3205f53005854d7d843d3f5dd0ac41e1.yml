@@ -1,0 +1,25 @@
+_id: req_3205f53005854d7d843d3f5dd0ac41e1
+type: Request
+parentId: fld_6bf7ed4f26374ccf9af917a5213dc882
+modified: 1667869081101
+created: 1667869081101
+url: "{{service-root}}/events/hr/v1/worker.personal-communication.email.change/meta"
+name: Worker V1 > Personal Communication Email > Change (Meta)
+description: Metadata for a request to change a worker email.
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: TOKEN
+  prefix: ""
+metaSortKey: -1667869081101
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

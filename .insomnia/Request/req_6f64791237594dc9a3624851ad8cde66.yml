@@ -1,0 +1,24 @@
+_id: req_6f64791237594dc9a3624851ad8cde66
+type: Request
+parentId: fld_009d91db16d74dbc930f3fa4a6fb6fa2
+modified: 1667869081018
+created: 1667869081018
+url: "{{security-token-service}}/auth/oauth/v2/token?grant_type=client_credenti\
+  als&client_id={{client-id}}&client_secret={{client-secret}}"
+name: Token Request (Query String)
+description: A request to get an OAuth bearer token for our demo ADP Workforce
+  Now by adding an adding the grant type and credentials to the URI query
+  string.
+method: POST
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1667869081018
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

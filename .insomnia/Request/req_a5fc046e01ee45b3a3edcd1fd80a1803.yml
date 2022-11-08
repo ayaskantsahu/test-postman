@@ -1,0 +1,110 @@
+_id: req_a5fc046e01ee45b3a3edcd1fd80a1803
+type: Request
+parentId: fld_ff94457b32234c1f87eb2b07185d26e2
+modified: 1667869081069
+created: 1667869081069
+url: "{{service-root}}/events/payroll/v2/worker-general-deduction-instruction.start"
+name: Payroll Instructions V1 > Gen. Ded. Instr. Start
+description: Add a new deduction or restart an existing deduction that has been
+  previously stopped.  You need the Payroll Agreement ID for the worker, which
+  you can get by sending a GET to the Payroll Instructions V1 API for the
+  desired worker.
+method: POST
+body:
+  mimeType: application/json
+  text: "{\r
+
+    \    \"events\": [{\r
+
+    \        \"data\": {\r
+
+    \            \"eventContext\": \r
+
+    \            {\r
+
+    \                \"worker\": \r
+
+    \                {\r
+
+    \                    \"associateOID\": \"G37FPGW57N71G26K\"\r
+
+    \                },\r
+
+    \                \"payrollInstruction\": \r
+
+    \                {\r
+
+    \                    \"payrollGroupCode\": \r
+
+    \                    {\r
+
+    \                        \"codeValue\": \"AA4\"\r
+
+    \                    },\r
+
+    \                    \"payrollFileNumber\": \"1110\",\r
+
+    \                    \"payrollAgreementID\": \"71674:1129\"\r
+
+    \                }\r
+
+    \            },\r
+
+    \            \"transform\": {\r
+
+    \                \"effectiveDateTime\": \"2017-05-01\",\r
+
+    \                \"payrollInstruction\": \r
+
+    \                {\r
+
+    \                    \"generalDeductionInstruction\": \r
+
+    \                    {\r
+
+    \                        \"deductionCode\": \r
+
+    \                        {\r
+
+    \                            \"codeValue\": \"1\"\r
+
+    \                        },\r
+
+    \                        \"deductionRate\": \r
+
+    \                        {\r
+
+    \                            \"rateValue\": 55,\r
+
+    \                            \"currencyCode\": \"USD\"\r
+
+    \                        }\r
+
+    \                    }\r
+
+    \                }\r
+
+    \            }\r
+
+    \        }\r
+
+    \    }]\r
+
+    }\r\n"
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  disabled: false
+  token: TOKEN
+  prefix: ""
+metaSortKey: -1667869081069
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

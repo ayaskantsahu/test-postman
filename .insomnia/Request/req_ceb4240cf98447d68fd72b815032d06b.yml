@@ -1,0 +1,130 @@
+_id: req_ceb4240cf98447d68fd72b815032d06b
+type: Request
+parentId: fld_6bf7ed4f26374ccf9af917a5213dc882
+modified: 1667869081097
+created: 1667869081097
+url: "{{service-root}}/events/hr/v1/worker.hire"
+name: Worker V1 > Hire
+description: |
+  Hire a new worker
+method: POST
+body:
+  mimeType: application/json
+  text: "{\r
+
+    \    \"events\": [{\r
+
+    \        \"data\": {\r
+
+    \            \"transform\": {\r
+
+    \                \"eventReasonCode\": {\r
+
+    \                    \"codeValue\": \"NEW\"\r
+
+    \                },\r
+
+    \                \"worker\": {\r
+
+    \                \t\"workerID\":{\r
+
+    \                \t\t\"idValue\":\"myassociateid\"\r
+
+    \                \t},\r
+
+    \                    \"person\": {\r
+
+    \                        \"governmentIDs\": [\r
+
+    \                            {\r
+
+    \                                \"idValue\": \"164746105\",\r
+
+    \                                \"nameCode\": {\r
+
+    \                                    \"codeValue\": \"SSN\"\r
+
+    \                                }\r
+
+    \                            }\r
+
+    \                        ],\r
+
+    \                        \"legalName\": {\r
+
+    \                            \"givenName\": \"Jimmy\",\r
+
+    \                            \"familyName1\": \"James\"\r
+
+    \                        },\r
+
+    \                        \"legalAddress\": {\r
+
+    \                            \"nameCode\": {\r
+
+    \                                \"codeValue\": \"PersonalAddress1\"\r
+
+    \                            },\r
+
+    \                            \"lineOne\": \"123 Dark Street\",\r
+
+    \                            \"cityName\": \"Atlanta\",\r
+
+    \                            \"countrySubdivisionLevel1\": {\r
+
+    \                                \"codeValue\": \"GA\"\r
+
+    \                            },\r
+
+    \                            \"countryCode\": \"US\",\r
+
+    \                            \"postalCode\": \"30092\"\r
+
+    \                        },\r
+
+    \                        \"birthDate\": \"1972-01-01\",\r
+
+    \                        \"genderCode\": {\r
+
+    \                            \"codeValue\": \"M\"\r
+
+    \                        }\r
+
+    \                    },\r
+
+    \                    \"workAssignment\": {\r
+
+    \                        \"hireDate\": \"2016-01-04\",\r
+
+    \                        \"payrollGroupCode\": \"AA4\",\r
+
+    \                        \"payrollFileNumber\": \"123468\"\r
+
+    \                    }\r
+
+    \                }\r
+
+    \            }\r
+
+    \        }\r
+
+    \    }]\r
+
+    }"
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  disabled: false
+  token: TOKEN
+  prefix: ""
+metaSortKey: -1667869081097
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

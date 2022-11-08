@@ -1,0 +1,27 @@
+_id: req_3ab91495e16d4dcfa9503a85e6e8c27a
+type: Request
+parentId: fld_6bf7ed4f26374ccf9af917a5213dc882
+modified: 1667869081085
+created: 1667869081085
+url: "{{service-root}}/hr/v2/workers"
+name: Worker V2 (List Async)
+description: Request a collection of workers using async.
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Prefer
+    value: respond-async
+authentication:
+  type: bearer
+  disabled: false
+  token: TOKEN
+  prefix: ""
+metaSortKey: -1667869081085
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

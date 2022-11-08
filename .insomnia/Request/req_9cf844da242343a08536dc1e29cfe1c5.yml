@@ -1,0 +1,25 @@
+_id: req_9cf844da242343a08536dc1e29cfe1c5
+type: Request
+parentId: fld_6bf7ed4f26374ccf9af917a5213dc882
+modified: 1667869081098
+created: 1667869081098
+url: "{{service-root}}/events/hr/v1/worker.hire/meta"
+name: Worker V1 > Hire (Meta)
+description: Metadata for a Worker Hire API request.
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: TOKEN
+  prefix: ""
+metaSortKey: -1667869081098
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

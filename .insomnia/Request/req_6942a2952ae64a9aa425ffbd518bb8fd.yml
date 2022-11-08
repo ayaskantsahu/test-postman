@@ -1,0 +1,25 @@
+_id: req_6942a2952ae64a9aa425ffbd518bb8fd
+type: Request
+parentId: fld_a2d985f8227d402fae25c3e1bceb5f91
+modified: 1667869081062
+created: 1667869081062
+url: "{{service-root}}/events/staffing/v1/applicant.onboard/meta"
+name: Job Applications V1 > Applicant On-board (Meta)
+description: Metadata for an Applicant Onboard API request.
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: TOKEN
+  prefix: ""
+metaSortKey: -1667869081062
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

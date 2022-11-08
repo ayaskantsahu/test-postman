@@ -1,0 +1,25 @@
+_id: req_74a4172a14bc43d4b4fdd56ba67ee8bb
+type: Request
+parentId: fld_6bf7ed4f26374ccf9af917a5213dc882
+modified: 1667869081099
+created: 1667869081099
+url: "{{service-root}}/events/hr/v1/worker.personal-communication.email.remove/meta"
+name: Worker V1 > Personal Communication Email > Remove (Meta)
+description: Metadata for a request to remove a worker email.
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: TOKEN
+  prefix: ""
+metaSortKey: -1667869081099
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

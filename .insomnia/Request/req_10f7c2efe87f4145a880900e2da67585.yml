@@ -1,0 +1,56 @@
+_id: req_10f7c2efe87f4145a880900e2da67585
+type: Request
+parentId: fld_6bf7ed4f26374ccf9af917a5213dc882
+modified: 1667869081092
+created: 1667869081092
+url: https://api.adp.com/events/hr/v1/worker.rehire/meta
+name: Worker V1 > Rehire (Meta)
+description: ""
+method: GET
+body:
+  mimeType: ""
+  text: |-
+    {
+        "events": [
+            {
+                "data":{
+                    "transform":
+                        {
+                            "effectiveDateTime": "2016-04-15",
+                            "worker":
+                            {
+                                "associateOID": "G37FPGW57N715WC5",
+                                "workerDates":
+                                {
+                                    "rehireDate": "2016-04-15"
+                                },
+                                "workerStatus":
+                                {
+                                    "reasonCode": {
+                                        "codeValue": "IMPORT"
+                                    }
+                                }
+                            }
+                        }
+                    
+                }
+            }
+        ]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  disabled: false
+  token: TOKEN
+  prefix: ""
+metaSortKey: -1667869081092
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

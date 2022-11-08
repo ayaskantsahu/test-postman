@@ -1,0 +1,34 @@
+_id: req_d67dda16f5594f10b7ca2840db35cf49
+type: Request
+parentId: fld_ff94457b32234c1f87eb2b07185d26e2
+modified: 1667869081066
+created: 1667869081066
+url: "{{service-root}}/payroll/v1/payroll-output?$filter=payrollProcessingJobID
+  eq fdd0ff77-5772-4667-a2c4-273abb84a7b5 and payrollGroupCode/codeValue eq
+  %26Y%26 and payrollRegionCode/codeValue eq
+  BALT&level=details&$select=earnings,reportableEarningsAndBenefits,reimburseme\
+  nts,statutoryDeductions,nonStatutoryDeductions,memos,configurationTags&$count\
+  =true&use-cache=false"
+name: Payroll Outputs V1 (Single  w/ Detail for  Region Code / Company Code /
+  Payroll Job ID)
+description: Fetches detailed payroll output by for a Region Code, Company Code
+  and Payroll Job ID.  Note all three filter parameters required for this
+  request can be found in the payroll-processing.job.status.change event
+  notification message payload.
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: TOKEN
+  prefix: ""
+metaSortKey: -1667869081066
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

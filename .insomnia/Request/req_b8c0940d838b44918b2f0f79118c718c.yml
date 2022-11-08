@@ -1,0 +1,285 @@
+_id: req_b8c0940d838b44918b2f0f79118c718c
+type: Request
+parentId: fld_a2d985f8227d402fae25c3e1bceb5f91
+modified: 1667869081058
+created: 1667869081058
+url: "{{service-root}}/events/staffing/v1/job-application.submit"
+name: Job Applications V1 > Submit
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: "{\r
+
+    \    \"events\": [{\r
+
+    \        \"data\": {\r
+
+    \            \"eventContext\": {\r
+
+    \                \"requisitionID\": \"1000\",\r
+
+    \                \"postingChannelID\": \"OT\"\r
+
+    \            },\r
+
+    \            \"transform\": {\r
+
+    \                \"jobApplication\": {\r
+
+    \                    \"applicant\": {\r
+
+    \                        \"person\": {\r
+
+    \                            \"personName\": {\r
+
+    \                                \"familyName1\": \"Alan\",\r
+
+    \                                \"givenName\": \"Smith\"\r
+
+    \                            },\r
+
+    \                            \"communication\": {\r
+
+    \                                \"landlines\": [{\r
+
+    \                                    \"areaDialing\": \"678\",\r
+
+    \                                    \"dialNumber\": \"4852983\"\r
+
+    \                                }],\r
+
+    \                                \"mobiles\": [{\r
+
+    \                                    \"areaDialing\": \"770\",\r
+
+    \                                    \"dialNumber\": \"4852983\"\r
+
+    \                                }],\r
+
+    \                                \"emails\": [{\r
+
+    \                                    \"emailUri\":
+    \"john.smith@acme.com\"\r
+
+    \                                }]\r
+
+    \                            },\r
+
+    \                            \"address\": {\r
+
+    \                                \"lineOne\": \"3295 River Road\",\r
+
+    \                                \"lineTwo\": \"Suite 2002\",\r
+
+    \                                \"cityName\": \"Atlanta\",\r
+
+    \                                \"countrySubdivisionLevel1\": {\r
+
+    \                                    \"codeValue\": \"GA\"\r
+
+    \                                },\r
+
+    \                                \"countryCode\": \"US\",\r
+
+    \                                \"postalCode\": \"30328\"\r
+
+    \                            },\r
+
+    \                            \"genderCode\": {\r
+
+    \                                \"codeValue\": \"M\"\r
+
+    \                            },\r
+
+    \                            \"raceCode\": {\r
+
+    \                                \"codeValue\": \"1\",\r
+
+    \                                \"identificationMethodCode\": {\r
+
+    \                                    \"codeValue\": \"SID\"\r
+
+    \                                }\r
+
+    \                            },\r
+
+    \                            \"militaryStatusCode\": {\r
+
+    \                                \"codeValue\": \"D\"\r
+
+    \                            },\r
+
+    \                            \"disabilityTypeCodes\": [{\r
+
+    \                                \"codeValue\": \"N\"\r
+
+    \                            }]\r
+
+    \                        },\r
+
+    \                        \"competencies\": [{\r
+
+    \                            \"competencyNameCode\": {\r
+
+    \                                \"codeValue\": \"COL\"\r
+
+    \                            },\r
+
+    \                            \"acquisitionDate\": \"2011-01-20\",\r
+
+    \                            \"lastUsedDate\": \"2014-02-01\",\r
+
+    \                            \"selfAssessedProficiencyScore\": {\r
+
+    \                                \"scoreCode\": {\r
+
+    \                                    \"codeValue\": \"ADV\",\r
+
+    \                                    \"shortName\": \"Advanced\"\r
+
+    \                                }\r
+
+    \                            }\r
+
+    \                        }],\r
+
+    \                        \"educationalDegrees\": [{\r
+
+    \                            \"nameCode\": {\r
+
+    \                                \"codeValue\": \"BS\"\r
+
+    \                            },\r
+
+    \                            \"educationalInstitution\": {\r
+
+    \                                \"nameCode\": {\r
+
+    \                                    \"codeValue\": \"USGA019\"\r
+
+    \                                }\r
+
+    \                            },\r
+
+    \                            \"startDate\": \"2012-05-01\",\r
+
+    \                            \"actualCompletionDate\": \"2014-05-13\"\r
+
+    \                        }],\r
+
+    \                        \"employmentHistory\": [{\r
+
+    \                            \"employerName\": \"ADP\",\r
+
+    \                            \"employerCommunication\": {\r
+
+    \                                \"landlines\": [{\r
+
+    \                                    \"areaDialing\": \"678\",\r
+
+    \                                    \"dialNumber\": \"5433432\"\r
+
+    \                                }]\r
+
+    \                            },\r
+
+    \                            \"currentEmployerIndicator\": true,\r
+
+    \                            \"allowContactEmployerIndicator\": true,\r
+
+    \                            \"employerAddress\": {\r
+
+    \                                \"countryCode\": \"US\",\r
+
+    \                                \"lineOne\": \"2575 Westside
+    Parkway\",\r
+
+    \                                \"cityName\": \"Alpharetta\",\r
+
+    \                                \"postalCode\": \"30338\",\r
+
+    \                                \"countrySubdivisionLevel1\": {\r
+
+    \                                    \"codeValue\": \"GA\"\r
+
+    \                                }\r
+
+    \                            },\r
+
+    \                            \"positionHistory\": [{\r
+
+    \                                \"positionTitle\": \"Data
+    Architect\",\r
+
+    \                                \"positionStartDate\": \"2015-01-01\"\r
+
+    \                            }]\r
+
+    \                        }]\r
+
+    \                    },\r
+
+    \                    \"applicationSource\": {\r
+
+    \                        \"submittedDate\": \"2016-06-01\"\r
+
+    \                    },\r
+
+    \                    \"attestations\": [{\r
+
+    \                        \"nameCode\": {\r
+
+    \                            \"codeValue\": \"ATTEST\"\r
+
+    \                        },\r
+
+    \                        \"acceptedIndicator\": true\r
+
+    \                    }],\r
+
+    \                    \"requestedPayRate\": {\r
+
+    \                        \"annualRateAmount\": {\r
+
+    \                            \"amountValue\": 99999.88,\r
+
+    \                            \"currencyCode\": \"USD\"\r
+
+    \                        }\r
+
+    \                    },\r
+
+    \                    \"attachments\": [{\r
+
+    \                        \"textValue\": \"This is my resume. Please
+    accept me for this position.\"\r
+
+    \                    }]\r
+
+    \                }\r
+
+    \            }\r
+
+    \        }\r
+
+    \    }]\r
+
+    }"
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  disabled: false
+  token: TOKEN
+  prefix: ""
+metaSortKey: -1667869081058
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

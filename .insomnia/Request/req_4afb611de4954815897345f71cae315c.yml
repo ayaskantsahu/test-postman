@@ -1,0 +1,27 @@
+_id: req_4afb611de4954815897345f71cae315c
+type: Request
+parentId: fld_9db45227ef4249dfa2c998bb51bb9aaa
+modified: 1667869081032
+created: 1667869081032
+url: "{{service-root}}/talent/v2/associates/{{anthony-albright-aoid}}/associate\
+  -memberships"
+name: Membership V2 (List for Worker by AOID)
+description: |
+  Request the memberships for a single worker.
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: TOKEN
+  prefix: ""
+metaSortKey: -1667869081032
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

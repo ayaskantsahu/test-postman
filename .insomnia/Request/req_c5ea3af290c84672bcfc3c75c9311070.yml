@@ -1,0 +1,27 @@
+_id: req_c5ea3af290c84672bcfc3c75c9311070
+type: Request
+parentId: fld_9db45227ef4249dfa2c998bb51bb9aaa
+modified: 1667869081042
+created: 1667869081042
+url: "{{service-root}}/talent/v2/associates/{{anthony-albright-aoid}}/associate\
+  -ksaocs"
+name: KSAOCs V2 (List for Worker by AOID)
+description: |
+  Request the KSAOCs for a single worker.
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: TOKEN
+  prefix: ""
+metaSortKey: -1667869081042
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

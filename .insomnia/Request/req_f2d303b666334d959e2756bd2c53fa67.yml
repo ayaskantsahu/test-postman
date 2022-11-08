@@ -1,0 +1,25 @@
+_id: req_f2d303b666334d959e2756bd2c53fa67
+type: Request
+parentId: fld_a2d985f8227d402fae25c3e1bceb5f91
+modified: 1667869081064
+created: 1667869081064
+url: "{{service-root}}/staffing/v1/job-applications"
+name: Job Applications V1 (List)
+description: "\n"
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: TOKEN
+  prefix: ""
+metaSortKey: -1667869081064
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

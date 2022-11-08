@@ -1,0 +1,27 @@
+_id: req_6e6ff5e3dc0d4bfb93bcb6492bf458ed
+type: Request
+parentId: fld_4b4f327b2edc488b804b9acf701da3a1
+modified: 1667869081024
+created: 1667869081024
+url: "{{service-root}}/time/v2/workers/{{anthony-albright-aoid}}/time-off-detai\
+  ls/time-off-requests"
+name: Time Off V2 > Requests (List for Worker by AOID)
+description: |
+  Request for time off balances for a worker.
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: TOKEN
+  prefix: ""
+metaSortKey: -1667869081024
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

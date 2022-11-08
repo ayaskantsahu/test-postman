@@ -1,0 +1,25 @@
+_id: req_7db84866cd444c94a16893aefff6bf89
+type: Request
+parentId: fld_9db45227ef4249dfa2c998bb51bb9aaa
+modified: 1667869081033
+created: 1667869081033
+url: "{{service-root}}/events/talent/v1/associate.ksaoc.membership.remove/meta"
+name: Membership V1 > Remove (Meta)
+description: ""
+method: POST
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: TOKEN
+  prefix: ""
+metaSortKey: -1667869081033
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

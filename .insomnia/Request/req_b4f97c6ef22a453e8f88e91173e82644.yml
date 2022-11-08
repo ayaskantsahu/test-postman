@@ -1,0 +1,27 @@
+_id: req_b4f97c6ef22a453e8f88e91173e82644
+type: Request
+parentId: fld_6bf7ed4f26374ccf9af917a5213dc882
+modified: 1667869081089
+created: 1667869081089
+url: "{{service-root}}/hr/v2/workers?$top=5&preventCache=TIMESTAMP"
+name: Worker V2 (List with Top 5 and Prevent Cache)
+description: Request a collection of the top 5 workers using a URI cache-buster.
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/json;masked=false
+authentication:
+  type: bearer
+  disabled: false
+  token: TOKEN
+  prefix: ""
+metaSortKey: -1667869081089
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

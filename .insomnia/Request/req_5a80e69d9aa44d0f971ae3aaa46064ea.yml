@@ -1,0 +1,27 @@
+_id: req_5a80e69d9aa44d0f971ae3aaa46064ea
+type: Request
+parentId: fld_ff94457b32234c1f87eb2b07185d26e2
+modified: 1667869081075
+created: 1667869081075
+url: "{{service-root}}/payroll/v2/workers/{{anthony-albright-aoid}}/pay-distrib\
+  utions"
+name: Pay Distributions V2 (List for Worker by AOID)
+description: |
+  Returns direct deposit info for a single worker (Pay > Direct Deposit in WFN).
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: TOKEN
+  prefix: ""
+metaSortKey: -1667869081075
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

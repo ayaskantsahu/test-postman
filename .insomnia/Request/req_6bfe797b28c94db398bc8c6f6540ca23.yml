@@ -1,0 +1,25 @@
+_id: req_6bfe797b28c94db398bc8c6f6540ca23
+type: Request
+parentId: fld_9db45227ef4249dfa2c998bb51bb9aaa
+modified: 1667869081048
+created: 1667869081048
+url: "{{service-root}}/events/talent/v1/associate.ksaoc.competency.remove/meta"
+name: Competency V1 > Remove (Meta)
+description: ""
+method: POST
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: TOKEN
+  prefix: ""
+metaSortKey: -1667869081048
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
