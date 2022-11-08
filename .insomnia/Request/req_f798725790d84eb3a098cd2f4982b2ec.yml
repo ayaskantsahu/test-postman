@@ -1,0 +1,22 @@
+_id: req_f798725790d84eb3a098cd2f4982b2ec
+type: Request
+parentId: fld_2fc958cd1d024de6a0b0fb563bd68416
+modified: 1667872600059
+created: 1667872600059
+url: "{{baseUrl}}/v2/companies/:companyId/employees/:employeeId/earnings/:earni\
+  ngCode/:startDate"
+name: Delete Earning by Earning Code and Start Date
+description: Delete Earning by Earning Code and Start Date
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1667872600059
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

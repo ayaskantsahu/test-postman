@@ -1,0 +1,23 @@
+_id: req_125e3427fa5a44e98278504a55e03b43
+type: Request
+parentId: fld_2fc958cd1d024de6a0b0fb563bd68416
+modified: 1667872600060
+created: 1667872600060
+url: "{{baseUrl}}/v2/companies/:companyId/employees/:employeeId/earnings/:earni\
+  ngCode"
+name: Get Earnings by Earning Code
+description: Get Earnings returns all earnings with the provided earning code
+  for the selected employee.
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1667872600060
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

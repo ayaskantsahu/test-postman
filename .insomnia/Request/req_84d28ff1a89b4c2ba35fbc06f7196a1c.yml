@@ -1,0 +1,22 @@
+_id: req_84d28ff1a89b4c2ba35fbc06f7196a1c
+type: Request
+parentId: fld_11a351cccb1d45349c2ed180ca94a5e8
+modified: 1667872600045
+created: 1667872600045
+url: "{{baseUrl}}/v2/credentials/secrets"
+name: Obtain new client secret.
+description: Obtain new client secret for Paylocity-issued client id. See Setup
+  section for details.
+method: POST
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1667872600045
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

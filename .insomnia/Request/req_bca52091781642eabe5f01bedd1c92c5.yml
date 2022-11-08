@@ -1,0 +1,27 @@
+_id: req_bca52091781642eabe5f01bedd1c92c5
+type: Request
+parentId: fld_d07496486d68474db0830acc9b5c544c
+modified: 1667872600046
+created: 1667872600046
+url: "{{baseUrl}}/v2/companies/:companyId/openapi"
+name: Get Company-Specific Open API Documentation
+description: The company-specific Open API endpoint allows the client to GET an
+  Open API document for the Paylocity API that is customized with
+  company-specific resource schemas. These customized resource schemas define
+  certain properties as enumerations of pre-defined values that correspond to
+  the company's setup with Web Pay. The customized schemas also indicate which
+  properties are required by the company within Web Pay.<br  />To learn more
+  about Open API, click [here](https://www.openapis.org/)
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1667872600046
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

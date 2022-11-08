@@ -1,0 +1,21 @@
+_id: req_8e5580174f31440e9489c26292d0fe78
+type: Request
+parentId: fld_c82c90a3153c42e79810ce2de34b53b6
+modified: 1667872600054
+created: 1667872600054
+url: "{{baseUrl}}/v2/companies/:companyId/employees/:employeeId"
+name: Get employee
+description: Get Employee API will return employee data currently available in Web Pay.
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1667872600054
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

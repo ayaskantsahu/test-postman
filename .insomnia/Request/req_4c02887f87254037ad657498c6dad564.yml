@@ -1,0 +1,21 @@
+_id: req_4c02887f87254037ad657498c6dad564
+type: Request
+parentId: fld_c0d2242e857849468164e96f504e1dd1
+modified: 1667872600058
+created: 1667872600058
+url: "{{baseUrl}}/v2/companies/:companyId/employees/:employeeId/earnings"
+name: Get All Earnings
+description: Get All Earnings returns all earnings for the selected employee.
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1667872600058
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

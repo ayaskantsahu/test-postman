@@ -1,0 +1,21 @@
+_id: req_a152758357ca4e02b869a49815d167ca
+type: Request
+parentId: fld_b12286aab0ba4bdabfe317c9d5b46f52
+modified: 1667872600055
+created: 1667872600055
+url: "{{baseUrl}}/v2/companies/:companyId/employees/:employeeId/localTaxes/:taxCode"
+name: Delete local tax by tax code
+description: Delete local tax by tax code
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1667872600055
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

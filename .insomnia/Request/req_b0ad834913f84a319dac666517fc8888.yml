@@ -1,0 +1,21 @@
+_id: req_b0ad834913f84a319dac666517fc8888
+type: Request
+parentId: fld_d07496486d68474db0830acc9b5c544c
+modified: 1667872600047
+created: 1667872600047
+url: "{{baseUrl}}/v2/companies/:companyId/customfields/:category"
+name: Get All Custom Fields
+description: Get All Custom Fields for the selected company
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1667872600047
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

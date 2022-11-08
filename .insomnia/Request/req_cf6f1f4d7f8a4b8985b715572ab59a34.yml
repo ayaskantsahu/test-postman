@@ -1,0 +1,22 @@
+_id: req_cf6f1f4d7f8a4b8985b715572ab59a34
+type: Request
+parentId: fld_c82c90a3153c42e79810ce2de34b53b6
+modified: 1667872600049
+created: 1667872600049
+url: "{{baseUrl}}/v2/companies/:companyId/employees/:employeeId/primaryStateTax"
+name: Add/update primary state tax
+description: Sends new or updated employee primary state tax information
+  directly to Web Pay.
+method: PUT
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1667872600049
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

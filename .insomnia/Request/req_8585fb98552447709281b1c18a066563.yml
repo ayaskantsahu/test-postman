@@ -1,0 +1,21 @@
+_id: req_8585fb98552447709281b1c18a066563
+type: Request
+parentId: fld_b12286aab0ba4bdabfe317c9d5b46f52
+modified: 1667872600056
+created: 1667872600056
+url: "{{baseUrl}}/v2/companies/:companyId/employees/:employeeId/localTaxes"
+name: Get all local taxes
+description: Returns all local taxes for the selected employee.
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1667872600056
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

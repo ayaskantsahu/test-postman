@@ -1,0 +1,24 @@
+_id: req_146a4419b0b141a5ba1b2e07c072f606
+type: Request
+parentId: fld_11a351cccb1d45349c2ed180ca94a5e8
+modified: 1667872600043
+created: 1667872600043
+url: "{{baseUrl}}/v2/weblinkstaging/companies/:companyId/employees/newemployees"
+name: Add new employee to Web Link
+description: Add new employee to Web Link will send partially completed or
+  potentially erroneous new hire record to Web Link, where it can be corrected
+  and competed by company administrator or authorized Paylocity Service Bureau
+  employee.
+method: POST
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1667872600043
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

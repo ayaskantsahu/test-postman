@@ -1,0 +1,24 @@
+_id: req_48ac771fdc5d462b82e0b9b6f76202f5
+type: Request
+parentId: fld_ac16793dac6e4ab18c2fcc1b6faa1575
+modified: 1667872600048
+created: 1667872600048
+url: "{{baseUrl}}/v2/companies/:companyId/employees"
+name: Add new employee
+description: New Employee API sends new employee data directly to Web Pay.
+  Companies who use the New Hire Template in Web Pay may require additional
+  fields when hiring employees. New Employee API Requests will honor these
+  required fields.
+method: POST
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1667872600048
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
